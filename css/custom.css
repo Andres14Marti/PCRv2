@@ -7,3 +7,13 @@ Created:December 2014
 License URI:http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
+
+.banner-pages {  
+    background-position: 50% 27%;
+    height: 632px;
+    max-height: 650px;
+}
+
+.banner-bautismo {
+    background-image: url(../images/bautismoprincipal.jpg);
+}
