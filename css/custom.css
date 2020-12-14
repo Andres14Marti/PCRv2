@@ -9,11 +9,26 @@ File Description: Place here your custom CSS styles
 */
 
 .banner-pages {  
-    background-position: 50% 27%;
     height: 632px;
     max-height: 650px;
 }
 
 .banner-bautismo {
-    background-image: url(../images/bautismoprincipal.jpg);
+    background-position: 50% 27%;
+    background-image: url(../images/bautismo-principal.jpg);
+}
+
+.banner-comunion {
+    background-position: 50% 50%;
+    background-image: url(../images/comunion-principal.jpg);
+}
+
+.separator-img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom:-1000%;
+    text-align: center;
 }
