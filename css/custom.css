@@ -23,6 +23,25 @@ File Description: Place here your custom CSS styles
     background-image: url(../images/comunion-principal.jpg);
 }
 
+.banner-confirmacion {
+    background-position: 50% 50%;
+    background-image: url(../images/confirmacion-principal.jpg);
+}
+
+.banner-matrimonio {
+    background-position: 50% 50%;
+    background-image: url(../images/matrimonio-principal.jpg);
+}
+
+.banner-reconciliacion {
+    background-position: 50% 25%;
+    background-image: url(../images/reconciliacion-principal.jpg);
+}
+
+.background-reconciliacion-horarios {
+    background: url(../images/reconciliacion-horarios.jpg) 50% 0px no-repeat;
+}
+
 .separator-img {
     position: absolute;
     margin-left: auto;
@@ -31,4 +50,10 @@ File Description: Place here your custom CSS styles
     right: 0;
     bottom:-1000%;
     text-align: center;
+}
+
+.testimonial p {
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-right: 35px
 }
