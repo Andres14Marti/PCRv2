@@ -38,10 +38,6 @@ File Description: Place here your custom CSS styles
     background-image: url(../images/reconciliacion-principal.jpg);
 }
 
-.background-reconciliacion-horarios {
-    background: url(../images/reconciliacion-horarios.jpg) 50% 0px no-repeat;
-}
-
 .banner-uncion {
     background-position: 50% 50%;
     background-image: url(../images/uncion-principal.jpg);
@@ -50,6 +46,18 @@ File Description: Place here your custom CSS styles
 .banner-misionera {
     background-position: 50% 25%;
     background-image: url(../images/misionera-principal.jpg);
+}
+
+.background-reconciliacion-horarios {
+    background: url(../images/reconciliacion-horarios.jpg) 50% 0px no-repeat;
+}
+
+.background-pastorales {
+    background: url(../images/misionera-pastorales.jpg) 50% 0px no-repeat;
+}
+
+.light-translucent-bg.slight:after {
+  background-color: rgba(255, 255, 255, 0.726);
 }
 
 .separator-img {
@@ -83,6 +91,19 @@ File Description: Place here your custom CSS styles
 
 .mt-30{
     margin-top: 30px;
+}
+
+blockquote{
+    margin-bottom: 0px;
+}
+
+blockquote:after {
+    font-size: 56px;
+}
+
+.icon-hover:hover .icon {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 
 /* Medium desktop devices and tablets */
