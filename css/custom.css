@@ -47,6 +47,11 @@ File Description: Place here your custom CSS styles
     background-image: url(../images/uncion-principal.jpg);
 }
 
+.banner-misionera {
+    background-position: 50% 25%;
+    background-image: url(../images/misionera-principal.jpg);
+}
+
 .separator-img {
     position: absolute;
     margin-left: auto;
@@ -61,4 +66,32 @@ File Description: Place here your custom CSS styles
     margin-bottom: 25px;
     display: inline-block;
     margin-right: 35px
+}
+
+.icon-contents{
+    display: contents;
+}
+
+.pt-15 {
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+.mb-0{
+    margin-bottom: 0px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+/* Medium desktop devices and tablets */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .medium-p-mb {
+    margin-bottom: 5px;
+  }
+
+  .hide-medium-br{
+      display: none;
+  }
 }
