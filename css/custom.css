@@ -48,6 +48,11 @@ File Description: Place here your custom CSS styles
     background-image: url(../images/misionera-principal.jpg);
 }
 
+.banner-pascual {
+    background-position: 50% 25%;
+    background-image: url(../images/pascual-principal.jpg);
+}
+
 .background-reconciliacion-horarios {
     background: url(../images/reconciliacion-horarios.jpg) 50% 0px no-repeat;
 }
@@ -80,19 +85,6 @@ File Description: Place here your custom CSS styles
     display: contents;
 }
 
-.pt-15 {
-  padding-top: 15px;
-  padding-bottom: 0px;
-}
-
-.mb-0{
-    margin-bottom: 0px;
-}
-
-.mt-30{
-    margin-top: 30px;
-}
-
 blockquote{
     margin-bottom: 0px;
 }
@@ -104,6 +96,29 @@ blockquote:after {
 .icon-hover:hover .icon {
   opacity: 0.8;
   filter: alpha(opacity=80);
+}
+
+.container-versiculo {
+    box-shadow: 3px 3px 7px #777;
+    transition: 0.40s ease-in-out box-shadow;
+}
+
+.container-versiculo:hover {
+    box-shadow: none;
+    transition: 0.40s ease-in-out box-shadow;
+}
+
+.pt-15 {
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+.mb-0{
+    margin-bottom: 0px;
+}
+
+.mt-30{
+    margin-top: 30px;
 }
 
 /* Medium desktop devices and tablets */
