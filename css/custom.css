@@ -53,6 +53,11 @@ File Description: Place here your custom CSS styles
     background-image: url(../images/pascual-principal.jpg);
 }
 
+.banner-samaritana {
+    background-position: 50% 40%;
+    background-image: url(../images/samaritana-principal.jpg);
+}
+
 .background-reconciliacion-horarios {
     background: url(../images/reconciliacion-horarios.jpg) 50% 0px no-repeat;
 }
@@ -115,6 +120,10 @@ blockquote:after {
 
 .mb-0{
     margin-bottom: 0px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
 }
 
 .mt-30{
