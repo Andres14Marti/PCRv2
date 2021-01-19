@@ -58,6 +58,11 @@ File Description: Place here your custom CSS styles
     background-image: url(../images/samaritana-principal.jpg);
 }
 
+.banner-comunidades {
+    background-position: 50% 60%;
+    background-image: url(../images/comunidades-principal.jpg);
+}
+
 .background-reconciliacion-horarios {
     background: url(../images/reconciliacion-horarios.jpg) 50% 0px no-repeat;
 }
