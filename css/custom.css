@@ -13,6 +13,16 @@ File Description: Place here your custom CSS styles
     max-height: 650px;
 }
 
+.banner-nosotros {
+    background-position: 50% 27%;
+    background-image: url(../images/1sld.jpg);
+}
+
+.banner-bautismo {
+    background-position: 50% 27%;
+    background-image: url(../images/bautismo-principal.jpg);
+}
+
 .banner-bautismo {
     background-position: 50% 27%;
     background-image: url(../images/bautismo-principal.jpg);

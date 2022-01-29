@@ -2,7 +2,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if gt IE 9]> <html lang="en" class="ie"> <![endif]-->
 <!--[if !IE]><!-->
-<html dir="ltr" lang="es">
+<html dir="rtl" lang="en">
 	<!--<![endif]-->
 
 	<head>
@@ -28,6 +28,8 @@
 
 		<!-- Font Awesome CSS -->
 		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+		
+		<script src="https://kit.fontawesome.com/9f00a97cac.js" crossorigin="anonymous"></script>
 
 		<!-- Fontello CSS -->
 		<link href="fonts/fontello/css/fontello.css" rel="stylesheet">
@@ -40,16 +42,18 @@
 		<link href="css/animations.css" rel="stylesheet">
 		<link href="plugins/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet">
 		<link href="plugins/owlcarousel2/assets/owl.theme.default.min.css" rel="stylesheet">
-		<link href="plugins/hover/hover-min.css" rel="stylesheet">		
+		<link href="plugins/hover/hover-min.css" rel="stylesheet">	
+		
+		<link href="css/estilos.css" rel="stylesheet" >
 		
 		<!-- The Project's core CSS file -->
 		<!-- Use css/rtl_style.css for RTL version -->
-		<link href="css/style.css" rel="stylesheet" >
+		<link href="css/rtl_style.css" rel="stylesheet" >
 		<!-- The Project's Typography CSS file, includes used fonts -->
 		<!-- Used font for body: Roboto -->
 		<!-- Used font for headings: Raleway -->
 		<!-- Use css/rtl_typography-default.css for RTL version -->
-		<link href="css/typography-default.css" rel="stylesheet" >
+		<link href="css/rtl_typography-default.css" rel="stylesheet" >
 		<!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
 		<link href="css/skins/dark_red.css" rel="stylesheet">
 		
@@ -64,7 +68,8 @@
 	<!-- "transparent-header": makes the header transparent and pulls the banner to top -->
 	<!-- "gradient-background-header": applies gradient background to header -->
 	<!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
-	<body class="no-trans front-page transparent-header gradient-background-header page-loader-4">
+	<body class="no-trans front-page transparent-header gradient-background-header page-loader-3" >
+		
 
 		<!-- scrollToTop -->
 		<!-- ================ -->
@@ -78,13 +83,7 @@
 			<div class="header-container">
 				
 				
-				<!-- header start -->
-				<!-- classes:  -->
-				<!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
-				<!-- "dark": dark version of header e.g. class="header dark clearfix" -->
-				<!-- "full-width": mandatory class for the full-width menu layout -->
-				<!-- "centered": mandatory class for the centered logo layout -->
-				<!-- ================ --> 
+				<!-- header-top start -->
 				<header class="header centered fixed   dark clearfix">
 					
 					<div class="container">
@@ -198,1022 +197,294 @@
 						</div>
 					</div>
 					
-				</header>
+				</header> 
+				
 				<!-- header end -->
 			</div>
 			<!-- header-container end -->
 		
 			<!-- banner start -->
 			<!-- ================ -->
-			<div class="banner">
-				<div class="container clearfix">
+			<div class="banner clearfix">
 
-					<!-- slideshow start -->
+				<!-- slideshow start -->
+				<!-- ================ -->
+				<div class="slideshow">
+
+					<!-- slider revolution start -->
 					<!-- ================ -->
-					<div class="slideshow">
+					<div class="slider-revolution-5-container">
+						<div id="slider-banner-fullscreen" class="slider-banner-fullscreen rev_slider" data-version="5.0">
+							<ul class="slides">
+								<!-- slide 1 start -->
+								<!-- ================ -->
+								<li class="text-center" data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="Unlimited Options and Layouts">
 
-						<!-- slider revolution start -->
-						<!-- ================ -->
-						<div class="slider-revolution-5-container">
-							<div id="slider-banner-fullwidth-big-height" class="slider-banner-fullwidth-big-height rev_slider" data-version="5.0">
-								<ul class="slides">
-									<!-- slide 1 start -->
-									<!-- ================ -->
-									<li data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="Next Generation Template">
+								<!-- main image -->
+								<img src="images/img1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
-									<!-- main image -->
-									<img src="images/bn3.JPG" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"  class="rev-slidebg">
+								<!-- Transparent Background -->
+								<div class="tp-caption dark-translucent-bg"
+									data-x="center"
+									data-y="center"
+									data-start="0"
+									data-transform_idle="o:1;"
+									data-transform_in="o:0;s:600;e:Power2.easeInOut;"
+									data-transform_out="o:0;s:600;"
+									data-width="5000"
+									data-height="5000">
+								</div>
 
-									<!-- Transparent Background -->
-									<div class="tp-caption dark-translucent-bg"
-										data-x="center"
-										data-y="center"
-										data-start="0"
-										data-transform_idle="o:1;"
-										data-transform_in="o:0;s:600;e:Power2.easeInOut;"
-										data-transform_out="o:0;s:600;"
-										data-width="5000"
-										data-height="5000">
-									</div>
+					
 
-									<!-- LAYER NR. 1 -->
-									<div class="tp-caption large_white"
-										data-x="left"
-										data-y="215"
-										data-start="1000"
-										data-width="650"
-										data-transform_idle="o:1;"
-										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1150;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-											<a href="#">Next Generation Template</a>
-									</div>
+								</li>
+								<!-- slide 1 end -->
 
-									<!-- LAYER NR. 2 -->
-									<div class="tp-caption large_white"
-										data-x="left"
-										data-y="270"
-										data-start="1100"
-										data-width="500"
-										data-transform_idle="o:1;"
-										data-transform_in="o:0;s:2000;e:Power4.easeInOut;">
-											<div class="separator-2 light"></div>
-									</div>
+								<!-- slide 2 start -->
+								<!-- ================ -->
+								<li class="text-right" data-transition="random" data-slotamount="7" data-masterspeed="default" data-title="Premium HTML5 Bootstrap Theme">
 
-									<!-- LAYER NR. 3 -->
-									<div class="tp-caption white small_white"
-										data-x="left"
-										data-y="280"
-										data-start="1100"
-										data-width="650"
-										data-transform_idle="o:1;"
-										data-transform_in="y:[100%];sX:1;sY:1;s:1000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">06</span>
-													<span class="month">Jan 2017 | </span>
-												</span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-									</div>
+								<!-- main image -->
+								<img src="images/img2.jpg" alt="slidebg2" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
-									<!-- LAYER NR. 4 -->
-									<div class="tp-caption white small_white"
-										data-x="left"
-										data-y="320"
-										data-start="1100"
-										data-width="650"
-										data-whitespace="normal"
-										data-transform_idle="o:1;"
-										data-transform_in="y:[100%];sX:1;sY:1;s:1000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi commodi reiciendis recusandae sapiente at omnis nemo fugit...</p>
-									</div>
-
-									<!-- LAYER NR. 5 -->
-									<div class="tp-caption small_white"
-										data-x="left"
-										data-y="380"
-										data-start="1200"
-										data-width="650"
-										data-transform_idle="o:1;"
-										data-transform_in="y:[100%];sX:1;sY:1;s:800;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-											<a href="#" class="btn-md-link padding-hor-clear">Read More <i class="fa fa-arrow-right"></i></a>
-									</div>
-
-									</li>
-									<!-- slide 1 end -->
-
-									<!-- slide 2 start -->
-									<!-- ================ -->
-									<li data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="Premium Bootstrap Template">
-
-									<!-- main image -->
-									<img src="images/blog-2-slide-2.jpg" alt="slidebg2" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
-
-									<!-- Transparent Background -->
-									<div class="tp-caption dark-translucent-bg"
-										data-x="center"
-										data-y="center"
-										data-start="0"
-										data-transform_idle="o:1;"
-										data-transform_in="o:0;s:600;e:Power2.easeInOut;"
-										data-transform_out="o:0;s:600;"
-										data-width="5000"
-										data-height="5000">
-									</div>
-
-									<!-- LAYER NR. 1 -->
-									<div class="tp-caption large_white"
-										data-x="left"
-										data-y="215"
-										data-start="1000"
-										data-width="650"
-										data-transform_idle="o:1;"
-										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1150;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-											<a href="#">Premium Bootstrap Template</a>
-									</div>
-
-									<!-- LAYER NR. 2 -->
-									<div class="tp-caption large_white"
-										data-x="left"
-										data-y="270"
-										data-start="1100"
-										data-width="500"
-										data-transform_idle="o:1;"
-										data-transform_in="o:0;s:2000;e:Power4.easeInOut;">
-											<div class="separator-2 light"></div>
-									</div>
-
-									<!-- LAYER NR. 3 -->
-									<div class="tp-caption white small_white"
-										data-x="left"
-										data-y="280"
-										data-start="1100"
-										data-width="650"
-										data-transform_idle="o:1;"
-										data-transform_in="y:[100%];sX:1;sY:1;s:1000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">11</span>
-													<span class="month">Dec 2017 | </span>
-												</span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">55 comments</a></span>
-											</div>
-									</div>
-
-									<!-- LAYER NR. 4 -->
-									<div class="tp-caption white small_white"
-										data-x="left"
-										data-y="320"
-										data-start="1100"
-										data-width="650"
-										data-whitespace="normal"
-										data-transform_idle="o:1;"
-										data-transform_in="y:[100%];sX:1;sY:1;s:1000;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ipsam expedita dolorum vero impedit doloremque maiores officiis...</p>
-									</div>
-
-									<!-- LAYER NR. 5 -->
-									<div class="tp-caption small_white"
-										data-x="left"
-										data-y="380"
-										data-start="1200"
-										data-width="650"
-										data-transform_idle="o:1;"
-										data-transform_in="y:[100%];sX:1;sY:1;s:800;e:Power4.easeInOut;"
-										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-											<a href="#" class="btn-md-link padding-hor-clear">Read More <i class="fa fa-arrow-right"></i></a>
-									</div>
-
-									</li>
-									<!-- slide 2 end -->
-								</ul>
-							</div>
+								<!-- Transparent Background -->
+								<div class="tp-caption dark-translucent-bg"
+									data-x="center"
+									data-y="center"
+									data-start="0"
+									data-transform_idle="o:1;"
+									data-transform_in="o:0;s:600;e:Power2.easeInOut;"
+									data-transform_out="o:0;s:600;"
+									data-width="5000"
+									data-height="5000">
+								</div>
+								</li>
+								<!-- slide 2 end -->
+							</ul>
+							<!-- <div class="tp-bannertimer"></div> -->
 						</div>
-						<!-- slider revolution end -->
-
 					</div>
-					<!-- slideshow end -->
+					<!-- slider revolution end -->
 
 				</div>
+				<!-- slideshow end -->
+
 			</div>
 			<!-- banner end -->
 
-			<!-- main-container start -->
-			<!-- ================ -->
-			<section class="main-container">
-
-				<div class="container">
-					<div class="row">
-
-						<!-- main start -->
-						<!-- ================ -->
-						<div class="main col-md-12">
-
-							<!-- page-title start -->
-							<!-- ================ -->
-							<h1 class="page-title text-center">Featured Posts</h1>
-							<div class="separator with-icon"><i class="fa fa-pencil bordered"></i></div>
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-							<br>
-							<br>
-							<!-- page-title end -->
-
-							<!-- masonry grid start -->
-							<!-- ================ -->
-							<div class="masonry-grid row">
-								<!-- masonry grid item start -->
-								<div class="masonry-grid-item col-sm-6 col-md-4">
-									<!-- blogpost start -->
-									<article class="blogpost shadow light-gray-bg bordered">
-										<div id="carousel-blog-post" class="carousel slide" data-ride="carousel">
-											<!-- Indicators -->
-											<ol class="carousel-indicators bottom margin-clear">
-												<li data-target="#carousel-blog-post" data-slide-to="0" class="active"></li>
-												<li data-target="#carousel-blog-post" data-slide-to="1"></li>
-												<li data-target="#carousel-blog-post" data-slide-to="2"></li>
-											</ol>
-
-											<!-- Wrapper for slides -->
-											<div class="carousel-inner" role="listbox">
-												<div class="item active">
-													<div class="overlay-container">
-														<img src="images/blog-1.jpg" alt="">
-														<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="overlay-container">
-														<img src="images/blog-3.jpg" alt="">
-														<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="overlay-container">
-														<img src="images/blog-4.jpg" alt="">
-														<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<header>
-											<h2><a href="blog-post.html">Blogpost with slider</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">12</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in. Maecenas  ullamcorper commodo rutrum.</p>
-										</div>
-										<footer class="clearfix">
-											<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-											<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-										</footer>
-									</article>
-									<!-- blogpost end -->
-								</div>
-								<!-- masonry grid item end -->
-
-								<!-- masonry grid item start -->
-								<div class="masonry-grid-item col-sm-6 col-md-4">
-									<!-- blogpost start -->
-									<article class="blogpost shadow light-gray-bg bordered">
-										<div class="overlay-container">
-											<img src="images/blog-2.jpg" alt="">
-											<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-										</div>
-										<header>
-											<h2><a href="blog-post.html">Cute Robot</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">10</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in. Maecenas  ullamcorper commodo rutrum. In iaculis lectus vel augue eleifend dignissim. Aenean viverra semper sollicitudin.</p>
-										</div>
-										<footer class="clearfix">
-											<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-											<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-										</footer>
-									</article>
-									<!-- blogpost end -->
-								</div>
-								<!-- masonry grid item end -->
-
-								<!-- masonry grid item start -->
-								<div class="masonry-grid-item col-sm-6 col-md-4">
-									<!-- blogpost start -->
-									<article class="blogpost shadow light-gray-bg bordered object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-										<header>
-											<h2><a href="blog-post.html">Text Post</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">09</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in. Maecenas  ullamcorper commodo rutrum. In iaculis lectus vel augue eleifend dignissim. Aenean viverra semper sollicitudin.</p>
-										</div>
-										<footer class="clearfix">
-											<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-											<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-										</footer>
-									</article>
-									<!-- blogpost end -->
-								</div>
-								<!-- masonry grid item end -->
-
-								<!-- masonry grid item start -->
-								<div class="masonry-grid-item col-sm-6 col-md-4">
-									<!-- blogpost start -->
-									<article class="blogpost shadow light-gray-bg bordered object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-										<div class="audio-wrapper">
-											<iframe height="166" class="margin-clear" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231321623&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-										</div>
-										<header>
-											<h2><a href="blog-post.html">Audio post</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">08</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in. Maecenas  ullamcorper commodo rutrum. In iaculis lectus vel augue eleifend dignissim. Aenean viverra semper sollicitudin.</p>
-										</div>
-										<footer class="clearfix">
-											<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-											<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-										</footer>
-									</article>
-									<!-- blogpost end -->
-								</div>
-								<!-- masonry grid item end -->
-
-								<!-- masonry grid item start -->
-								<div class="masonry-grid-item col-sm-6 col-md-4">
-									<!-- blogpost start -->
-									<article class="blogpost shadow light-gray-bg bordered object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-										<div class="embed-responsive embed-responsive-16by9">
-											<iframe class="embed-responsive-item" src="//www.youtube.com/embed/91J8pLHdDB0"></iframe>
-										</div>
-										<header>
-											<h2><a href="blog-post.html">Blogpost with embedded youtube video</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">07</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in. Maecenas  ullamcorper commodo rutrum. In iaculis lectus vel augue eleifend dignissim.</p>
-										</div>
-										<footer class="clearfix">
-											<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-											<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-										</footer>
-									</article>
-									<!-- blogpost end -->
-								</div>
-								<!-- masonry grid item end -->
-
-								<!-- masonry grid item start -->
-								<div class="masonry-grid-item col-sm-6 col-md-4">
-									<!-- blogpost start -->
-									<article class="blogpost shadow light-gray-bg bordered object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-										<div class="overlay-container">
-											<img src="images/blog-3.jpg" alt="">
-											<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-										</div>
-										<header>
-											<h2><a href="blog-post.html">Nunc interdum mi neque</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">07</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in. Maecenas  ullamcorper commodo rutrum. In iaculis lectus vel augue eleifend dignissim. Aenean viverra semper sollicitudin.</p>
-										</div>
-										<footer class="clearfix">
-											<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-											<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-										</footer>
-									</article>
-									<!-- blogpost end -->
-								</div>
-								<!-- masonry grid item end -->
-
-								<!-- masonry grid item start -->
-								<div class="masonry-grid-item col-sm-6 col-md-4">
-									<!-- blogpost start -->
-									<article class="blogpost shadow light-gray-bg bordered object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-										<div class="overlay-container">
-											<img src="images/blog-4.jpg" alt="">
-											<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-										</div>
-										<header>
-											<h2><a href="blog-post.html">Distinctio magni aut illum</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">06</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio magni aut illum animi laboriosam esse quidem sit illo fugit est culpa facilis amet, ab doloremque magnam, sapiente architecto natus. Voluptatem esse optio explicabo dolore impedit debitis deleniti porro doloribus provident perferendis nostrum quasi nobis magni atque mollitia, quas, quos corporis!</p>
-										</div>
-										<footer class="clearfix">
-											<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-											<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-										</footer>
-									</article>
-									<!-- blogpost end -->
-								</div>
-								<!-- masonry grid item end -->
-
-								<!-- masonry grid item start -->
-								<div class="masonry-grid-item col-sm-6 col-md-4">
-									<!-- blogpost start -->
-									<article class="blogpost shadow light-gray-bg bordered object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-										<header>
-											<h2><a href="blog-post.html">Voluptatem esse optio explicabo dolore impedit</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">06</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio magni aut illum animi laboriosam esse quidem sit illo fugit est culpa facilis amet, ab doloremque magnam, sapiente architecto natus. Voluptatem esse optio explicabo dolore impedit debitis deleniti porro doloribus provident perferendis nostrum quasi nobis magni atque mollitia, quas, quos corporis!</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto veniam, perspiciatis libero quasi, iusto delectus sed accusantium fugit inventore iure molestiae amet voluptatem, ut dolorem ex dolorum ea impedit quae!</p>
-										</div>
-										<footer class="clearfix">
-											<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-											<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-										</footer>
-									</article>
-									<!-- blogpost end -->
-								</div>
-								<!-- masonry grid item end -->
-
-								<!-- masonry grid item start -->
-								<div class="masonry-grid-item col-sm-6 col-md-4">
-									<!-- blogpost start -->
-									<article class="blogpost shadow light-gray-bg bordered object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-										<div class="overlay-container">
-											<img src="images/blog-1.jpg" alt="">
-											<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-										</div>
-										<header>
-											<h2><a href="blog-post.html">Successful business ideas</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">06</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto veniam, perspiciatis libero quasi, iusto delectus sed accusantium fugit inventore iure molestiae amet voluptatem, ut dolorem ex dolorum ea impedit quae!</p>
-										</div>
-										<footer class="clearfix">
-											<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-											<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-										</footer>
-									</article>
-									<!-- blogpost end -->
-								</div>
-								<!-- masonry grid item end -->
-							</div>
-							<!-- masonry grid end -->
-
-						</div>
-						<!-- main end -->
-
-					</div>
-				</div>
-			</section>
-			<!-- main-container end -->
+			<div id="page-start"></div>
 
 			<!-- section start -->
 			<!-- ================ -->
-			<section class="pv-40 light-gray-bg">
-				<br>
+			<section class="light-gray-bg pv-30 clearfix">
 				<div class="container">
 					<div class="row">
-
-						<!-- main start -->
-						<!-- ================ -->
-						<div class="col-md-8">
-
-							<!-- section title start -->
-							<!-- ================ -->
-							<h2 class="title">More Posts</h2>
-							<div class="separator-2"></div>
-							<br>
-							<!-- section title end -->
-
-							<!-- blogpost start -->
-							<article class="blogpost">
-								<div class="row grid-space-10">
-									<div class="col-md-6">
-										<div id="carousel-blog-post" class="carousel slide" data-ride="carousel">
-											<!-- Indicators -->
-											<ol class="carousel-indicators bottom margin-clear">
-												<li data-target="#carousel-blog-post" data-slide-to="0" class="active"></li>
-												<li data-target="#carousel-blog-post" data-slide-to="1"></li>
-												<li data-target="#carousel-blog-post" data-slide-to="2"></li>
-											</ol>
-
-											<!-- Wrapper for slides -->
-											<div class="carousel-inner" role="listbox">
-												<div class="item active">
-													<div class="overlay-container">
-														<img src="images/blog-1.jpg" alt="">
-														<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="overlay-container">
-														<img src="images/blog-3.jpg" alt="">
-														<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="overlay-container">
-														<img src="images/blog-4.jpg" alt="">
-														<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<header>
-											<h2><a href="blog-post.html">Blogpost with slider</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">12</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in. Maecenas  ullamcorper commodo rutrum...</p>
-										</div>
-									</div>
-								</div>
-								<footer class="clearfix">
-									<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-									<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-								</footer>
-							</article>
-							<!-- blogpost end -->
-
-							<!-- blogpost start -->
-							<article class="blogpost">
-								<div class="row grid-space-10">
-									<div class="col-md-6">
-										<div class="audio-wrapper">
-											<iframe height="166" class="margin-clear" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231321623&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<header>
-											<h2><a href="blog-post.html">Audio post</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">10</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in.</p>
-										</div>
-									</div>
-								</div>
-								<footer class="clearfix">
-									<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-									<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-								</footer>
-							</article>
-							<!-- blogpost end -->
-
-							<!-- blogpost start -->
-							<article class="blogpost">
-								<div class="row grid-space-10">
-									<div class="col-md-6">
-										<div class="overlay-container">
-											<img src="images/blog-2.jpg" alt="">
-											<a class="overlay-link" href="blog-post.html"><i class="fa fa-link"></i></a>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<header>
-											<h2><a href="blog-post.html">Cute Robot</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">09</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in. Maecenas  ullamcorper commodo rutrum. In iaculis lectus vel augue eleifend dignissim.</p>
-										</div>
-									</div>
-								</div>
-								<footer class="clearfix">
-									<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-									<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-								</footer>
-							</article>
-							<!-- blogpost end -->
-
-							<!-- blogpost start -->
-							<article class="blogpost">
-								<div class="row grid-space-10">
-									<div class="col-md-6">
-										<div class="embed-responsive embed-responsive-16by9">
-											<iframe class="embed-responsive-item" src="//www.youtube.com/embed/91J8pLHdDB0"></iframe>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<header>
-											<h2><a href="blog-post.html">Blogpost with embedded youtube video</a></h2>
-											<div class="post-info">
-												<span class="post-date">
-													<i class="icon-calendar"></i>
-													<span class="day">08</span>
-													<span class="month">May 2017</span>
-												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-											</div>
-										</header>
-										<div class="blogpost-content">
-											<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in.</p>
-										</div>
-									</div>
-								</div>
-								<footer class="clearfix">
-									<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-									<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-								</footer>
-							</article>
-							<!-- blogpost end -->
-
-							<!-- blogpost start -->
-							<article class="blogpost">
-								<header>
-									<h2><a href="blog-post.html">Text Post</a></h2>
-									<div class="post-info">
-										<span class="post-date">
-											<i class="icon-calendar"></i>
-											<span class="day">08</span>
-											<span class="month">May 2017</span>
-										</span>
-										<span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-										<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
-									</div>
-								</header>
-								<div class="blogpost-content">
-									<p>Mauris dolor sapien, malesuada at interdum ut, hendrerit eget lorem. Nunc interdum mi neque, et  sollicitudin purus fermentum ut. Suspendisse faucibus nibh odio, a vehicula eros pharetra in. Maecenas  ullamcorper commodo rutrum. In iaculis lectus vel augue eleifend dignissim.</p>
-								</div>
-								<footer class="clearfix">
-									<div class="tags pull-left"><i class="icon-tags"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a></div>
-									<div class="link pull-right"><i class="icon-link"></i><a href="#">Read More</a></div>
-								</footer>
-							</article>
-							<!-- blogpost end -->
-
-							<!-- pagination start -->
-							<nav>
-								<ul class="pagination">
-									<li><a href="#" aria-label="Previous"><i class="fa fa-angle-left"></i></a></li>
-									<li class="active"><a href="#">1</a></li>
-									<li><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#">5</a></li>
-									<li><a href="#" aria-label="Next"><i class="fa fa-angle-right"></i></a></li>
-								</ul>
-							</nav>
-							<!-- pagination end -->
-
+						<div class="col-md-8 col-md-offset-2">
+							<h2 class="text-center">Horarios<strong> Santa Eucaristía</strong></h2>
+							<div class="separator"></div>
+							<p class="large text-center">Estos Horarios estan sujetos a cambios durante tiempo de COVID19</p>
 						</div>
-						<!-- main end -->
+						<div class="col-md-4 ">
+							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+								<span class="icon default-bg circle "style="background-color: brown;"><i class="fas fa-church"></i></span>
+								<h3>Eucaristías Trasnsmitidas</h3>
+								<div class="separator clearfix"></div>
+								<p>Lunes a Viernes:  <b>5:00 PM</b></p>
+								<p>Sabados        :  <b>7:00 AM</b></p>
+								<p>Domingos       :  <b>11:00 AM</b></p>
+								<p>Transmitidas en vivo por         <b></b></p>
+								<a href="https://www.facebook.com/parroquiacristoresucitadohn/" class="fab fa-facebook" id="facebook" target="_blank"></a> &nbsp; &nbsp;  
 
-						<!-- sidebar start -->
-						<!-- ================ -->
-						<aside class="col-md-4 col-lg-3 col-lg-offset-1">
-							<div class="sidebar">
-								<div class="block clearfix">
-									<h3 class="title">Sidebar menu</h3>
-									<div class="separator-2"></div>
-									<nav>
-										<ul class="nav nav-pills nav-stacked">
-											<li><a href="index.html">Home</a></li>
-											<li class="active"><a href="blog-large-image-right-sidebar.html">Blog</a></li>
-											<li><a href="portfolio-grid-2-3-col.html">Portfolio</a></li>
-											<li><a href="page-about.html">About</a></li>
-											<li><a href="page-contact.html">Contact</a></li>
-										</ul>
-									</nav>
-								</div>
-								<div class="block clearfix">
-									<h3 class="title">Featured Project</h3>
-									<div class="separator-2"></div>
-									<div id="carousel-portfolio-sidebar" class="carousel slide" data-ride="carousel">
-										<!-- Indicators -->
-										<ol class="carousel-indicators">
-											<li data-target="#carousel-portfolio-sidebar" data-slide-to="0" class="active"></li>
-											<li data-target="#carousel-portfolio-sidebar" data-slide-to="1"></li>
-											<li data-target="#carousel-portfolio-sidebar" data-slide-to="2"></li>
-										</ol>
-
-										<!-- Wrapper for slides -->
-										<div class="carousel-inner" role="listbox">
-											<div class="item active">
-												<div class="image-box shadow bordered text-center mb-20">
-													<div class="overlay-container">
-														<img src="images/portfolio-9.jpg" alt="">
-														<a href="portfolio-item.html" class="overlay-link">
-															<i class="fa fa-link"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="item">
-												<div class="image-box shadow bordered text-center mb-20">
-													<div class="overlay-container">
-														<img src="images/portfolio-1-2.jpg" alt="">
-														<a href="portfolio-item.html" class="overlay-link">
-															<i class="fa fa-link"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="item">
-												<div class="image-box shadow bordered text-center mb-20">
-													<div class="overlay-container">
-														<img src="images/portfolio-1-3.jpg" alt="">
-														<a href="portfolio-item.html" class="overlay-link">
-															<i class="fa fa-link"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="block clearfix">
-									<h3 class="title">Latest tweets</h3>
-									<div class="separator-2"></div>
-									<ul class="tweets">
-										<li>
-											<i class="fa fa-twitter"></i>
-											<p><a href="#">@lorem</a> ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, aliquid, et molestias nesciunt <a href="#">http://t.co/dzLEYGeEH9</a>.</p><span>16 hours ago</span>
-										</li>
-										<li>
-											<i class="fa fa-twitter"></i>
-											<p><a href="#">@lorem</a> ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, aliquid, et molestias nesciunt <a href="#">http://t.co/dzLEYGeEH9</a>.</p><span>16 hours ago</span>
-										</li>
-									</ul>
-								</div>
-								<div class="block clearfix">
-									<h3 class="title">Popular Tags</h3>
-									<div class="separator-2"></div>
-									<div class="tags-cloud">
-										<div class="tag">
-											<a href="#">energy</a>
-										</div>
-										<div class="tag">
-											<a href="#">business</a>
-										</div>
-										<div class="tag">
-											<a href="#">food</a>
-										</div>
-										<div class="tag">
-											<a href="#">fashion</a>
-										</div>
-										<div class="tag">
-											<a href="#">finance</a>
-										</div>
-										<div class="tag">
-											<a href="#">culture</a>
-										</div>
-										<div class="tag">
-											<a href="#">health</a>
-										</div>
-										<div class="tag">
-											<a href="#">sports</a>
-										</div>
-										<div class="tag">
-											<a href="#">life style</a>
-										</div>
-										<div class="tag">
-											<a href="#">books</a>
-										</div>
-										<div class="tag">
-											<a href="#">lorem</a>
-										</div>
-										<div class="tag">
-											<a href="#">ipsum</a>
-										</div>
-										<div class="tag">
-											<a href="#">responsive</a>
-										</div>
-										<div class="tag">
-											<a href="#">style</a>
-										</div>
-										<div class="tag">
-											<a href="#">finance</a>
-										</div>
-										<div class="tag">
-											<a href="#">sports</a>
-										</div>
-										<div class="tag">
-											<a href="#">technology</a>
-										</div>
-										<div class="tag">
-											<a href="#">support</a>
-										</div>
-										<div class="tag">
-											<a href="#">life style</a>
-										</div>
-										<div class="tag">
-											<a href="#">books</a>
-										</div>
-									</div>
-								</div>
-								<div class="block clearfix">
-									<h3 class="title">Latest News</h3>
-									<div class="separator-2"></div>
-									<div class="media margin-clear">
-										<div class="media-left">
-											<div class="overlay-container">
-												<img class="media-object" src="images/blog-thumb-1.jpg" alt="blog-thumb">
-												<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-											</div>
-										</div>
-										<div class="media-body">
-											<h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-											<p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 23, 2017</p>
-										</div>
-										<hr>
-									</div>
-									<div class="media margin-clear">
-										<div class="media-left">
-											<div class="overlay-container">
-												<img class="media-object" src="images/blog-thumb-2.jpg" alt="blog-thumb">
-												<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-											</div>
-										</div>
-										<div class="media-body">
-											<h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-											<p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 22, 2017</p>
-										</div>
-										<hr>
-									</div>
-									<div class="media margin-clear">
-										<div class="media-left">
-											<div class="overlay-container">
-												<img class="media-object" src="images/blog-thumb-3.jpg" alt="blog-thumb">
-												<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-											</div>
-										</div>
-										<div class="media-body">
-											<h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-											<p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 21, 2017</p>
-										</div>
-										<hr>
-									</div>
-									<div class="media margin-clear">
-										<div class="media-left">
-											<div class="overlay-container">
-												<img class="media-object" src="images/blog-thumb-4.jpg" alt="blog-thumb">
-												<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-											</div>
-										</div>
-										<div class="media-body">
-											<h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-											<p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 21, 2017</p>
-										</div>
-									</div>
-									<div class="text-right space-top">
-										<a href="blog-large-image-right-sidebar.html" class="link-dark"><i class="fa fa-plus-circle pl-5 pr-5"></i>More</a>
-									</div>
-								</div>
+								<a href="https://www.youtube.com/channel/UCDZi5Fc70E2pPzze72SSpcw"   class="fab fa-youtube" id="youtube" target="_blank"></a>
+								
 							</div>
-						</aside>
-						<!-- sidebar end -->
+						</div>
+						<div class="col-md-4 ">
+							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
+								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+								<h3>Sede Parroquial</h3>
+								<div class="separator clearfix"></div>
+								<p>Lunes a Viernes:  <b>7:00 AM & 5:00 PM</b></p>
+								<p>Sabados        :  <b>7:00 AM & 5:30 PM</b></p>
+								<p>Domingos       :  <b>9:00 AM, 11:00 AM, 5:00 PM & 7:00 PM</b></p>
+								<p><br></b></p>
+							</div>
+						</div>
+						<div class="col-md-4 ">
+							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+								<h3>Yaguacire</h3>
+								<div class="separator clearfix"></div>
+								<p>Domingos       :<b>7:00 AM</b></p>
+								<p><br>.</b></p>
+								<p><br></b></p>
+								<p><br></b></p>
+								<p></b></p>
+							</div>
+						</div>
+
+						<div class="col-md-4 ">
+							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+								<h3>Altos de Loarque</h3>
+								<div class="separator clearfix"></div>
+								<p>Domingos       :<b>3:30 PM</b></p>
+								<p><br></b></p>
+								<p><br></b></p>
+								<p><br></b></p>
+								<p></b></p>
+							</div>
+						</div>
+
+						<div class="col-md-4 ">
+							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+								<h3>Camino NeoCatecumenal</h3>
+								<div class="separator clearfix"></div>
+								<p>Sábados       :<b>7:00 PM</b></p>
+								<p><br></b></p>
+								<p><br></b></p>
+								<p><br></b></p>
+								<p></b></p>
+							</div>
+						</div>
+
+						<div class="col-md-4 ">
+							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+								<h3>Las Mercedes</h3>
+								<div class="separator clearfix"></div>
+								<p>Sábados       :<b>3:30 PM</b></p>
+								<p><br></b></p>
+								<p><br></b></p>
+								<p><br></b></p>
+								<p></b></p>
+							</div>
+						</div>
 
 					</div>
 				</div>
 			</section>
 			<!-- section end -->
 
-			<!-- footer top start -->
+			<!-- section start -->
 			<!-- ================ -->
-			<div class="default-bg footer-top animated-text">
+			<section class="section default-bg clearfix">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="call-to-action text-center">
 								<div class="row">
-									<div class="col-sm-8">
-										<h2>Powerful Bootstrap Template</h2>
-										<h2>Waste no more time</h2>
+									<div class="col-sm-8 col-sm-push-4">
+										<h1 class="title">Nuestros Servicios</h1>
+										<p>Los servicios que como parroquia brindamos a la feligresía</p>
 									</div>
-									<div class="col-sm-4">
-										<p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent ">Purchase<i class="fa fa-cart-arrow-down pl-20"></i></a></p>
+									<div class="col-sm-4 col-sm-pull-8">
+										<br>
+										<p><a href="servicios.html" class="btn btn-lg btn-gray-transparent btn-animated"><i class="fa fa-arrow-left pl-20"></i>Leer Más</a></p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- footer top end -->
+			</section>
+			<!-- section end -->
+
+
+			
+
+			<!-- section -->
+			<!-- ================ -->
+			<section class="pv-30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h2>Nuestros <strong>Servicios</strong></h2>
+							<div class="separator-2"></div>
+							<!-- <p>Lorem ipsum dolor sit amet, lotrem <span class="text-default">some colored text</span>. Nulla explicabo <strong>attention to this</strong> blanditiis, ex cupiditate ipsam debitis rem.</p> -->
+							<ul class="list-icons">
+								<h4><i class="far fa-check-circle"></i> Santas Eucaristías</h4>
+								<h4><i class="far fa-check-circle"></i> Dirección Espiritual</h4>
+								<h4><i class="far fa-check-circle"></i> Grupos de Oración</h4>
+								<h4><i class="far fa-check-circle"></i> Sacramentos</h4>
+								<h4><i class="far fa-check-circle"></i> Pastorales</h4>
+								<!-- <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="far fa-check-circle"></i> 27 Predifined Home Pages</li>
+								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="far fa-check-circle"></i> 14 Header Options</li>
+								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="far fa-check-circle"></i> 8 Footer Options</li>
+								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="far fa-check-circle"></i> 200+ HTML files</li>
+							</ul> -->
+							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et eius aut nisi dolore ut.</p> -->
+							<a href="servicios.html" class="btn btn-default btn-hvr hvr-shutter-out-horizontal btn-lg">Leer Más<i class="icon-users-1 pl-10"></i></a>
+						</div>
+						<div class="col-md-6">
+							<br>
+							<div class="clearfix">
+								<img class="pull-right object-non-visible" data-animation-effect="slideInUp" data-effect-delay="100" src="images/caliz.svg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+			</section>
+			<!-- section end -->
+
+			<!-- section end -->
+
+		
+		
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="pv-30 clearfix">
+
+				<div class="container">
+					<div class="row">
+						<h2 class="text-center space-top text-default logo-font">Nuestros Sacerdotes</h2>
+						<div class="separator"></div>
+						
+						<div class="col-md-12">
+							<div class="image-box text-center style-4 mb-20">
+								<img src="images/pater.jpg" style="width: 40%;" alt="" class="rounded-circle img-thumbnail">
+								<div class="body padding-horizontal-clear">
+									<h4 class="logo-font title">Pbro. Javier Eduardo Martínez</h4>
+									<p class="small mb-10">Párroco</p>
+									<p class="lead text-default"></p>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="col-md-4">
+							<div class="image-box text-center style-2 mb-20">
+								<img src="images/wedding-event-2.jpg" alt="" class="img-circle img-thumbnail">
+								<div class="body padding-horizontal-clear">
+									<h4 class="logo-font title">The Wedding</h4>
+									<p class="small mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ipsam nihil, adipisci rem minus.</p>
+									<p class="lead text-default">July 19th - 2015</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="image-box text-center style-2 mb-20">
+								<img src="images/wedding-event-3.jpg" alt="" class="img-circle img-thumbnail">
+								<div class="body padding-horizontal-clear">
+									<h4 class="logo-font title">After Party</h4>
+									<p class="small mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ipsam nihil, adipisci rem minus.</p>
+									<p class="lead text-default">July 19th - 2015</p>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				
+				</div>
+			
+
+
+			</section>
+
+			
+			<!-- section end -->
 			<!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
 			<!-- ================ -->
-			<footer id="footer" class="clearfix ">
+			<footer id="footer" class="clearfix dark">
 
 				<!-- .footer start -->
 				<!-- ================ -->
@@ -1221,158 +492,26 @@
 					<div class="container">
 						<div class="footer-inner">
 							<div class="row">
-								<div class="col-md-3">
-									<div class="footer-content">
-										<div class="logo-footer"><img id="logo-footer" src="images/logo_light_blue.png" alt=""></div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus illo vel dolorum soluta consectetur doloribus sit. Delectus non tenetur odit dicta vitae debitis suscipit doloribus. Ipsa, aut voluptas quaerat... <a href="page-about.html">Learn More<i class="fa fa-long-arrow-right pl-5"></i></a></p>
-										<div class="separator-2"></div>
-										<nav>
-											<ul class="nav nav-pills nav-stacked">
-												<li><a target="_blank" href="http://htmlcoder.me/support">Support</a></li>
-												<li><a href="#">Privacy</a></li>
-												<li><a href="#">Terms</a></li>
-												<li><a href="page-about.html">About</a></li>
-											</ul>
-										</nav>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="footer-content">
-										<h2 class="title">Latest From Blog</h2>
-										<div class="separator-2"></div>
-										<div class="media margin-clear">
-											<div class="media-left">
-												<div class="overlay-container">
-													<img class="media-object" src="images/blog-thumb-1.jpg" alt="blog-thumb">
-													<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-												</div>
-											</div>
-											<div class="media-body">
-												<h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-												<p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 23, 2017</p>
-											</div>
-											<hr>
-										</div>
-										<div class="media margin-clear">
-											<div class="media-left">
-												<div class="overlay-container">
-													<img class="media-object" src="images/blog-thumb-2.jpg" alt="blog-thumb">
-													<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-												</div>
-											</div>
-											<div class="media-body">
-												<h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-												<p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 22, 2017</p>
-											</div>
-											<hr>
-										</div>
-										<div class="media margin-clear">
-											<div class="media-left">
-												<div class="overlay-container">
-													<img class="media-object" src="images/blog-thumb-3.jpg" alt="blog-thumb">
-													<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-												</div>
-											</div>
-											<div class="media-body">
-												<h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-												<p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 21, 2017</p>
-											</div>
-											<hr>
-										</div>
-										<div class="media margin-clear">
-											<div class="media-left">
-												<div class="overlay-container">
-													<img class="media-object" src="images/blog-thumb-4.jpg" alt="blog-thumb">
-													<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-												</div>
-											</div>
-											<div class="media-body">
-												<h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-												<p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 21, 2017</p>
-											</div>
-										</div>
-										<div class="text-right space-top">
-											<a href="blog-large-image-right-sidebar.html" class="link-dark"><i class="fa fa-plus-circle pl-5 pr-5"></i>More</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="footer-content">
-										<h2 class="title">Portfolio Gallery</h2>
-										<div class="separator-2"></div>
-										<div class="row grid-space-10">
-											<div class="col-xs-4 col-md-6">
-												<div class="overlay-container mb-10">
-													<img src="images/gallery-1.jpg" alt="">
-													<a href="portfolio-item.html" class="overlay-link small">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-											</div>
-											<div class="col-xs-4 col-md-6">
-												<div class="overlay-container mb-10">
-													<img src="images/gallery-2.jpg" alt="">
-													<a href="portfolio-item.html" class="overlay-link small">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-											</div>
-											<div class="col-xs-4 col-md-6">
-												<div class="overlay-container mb-10">
-													<img src="images/gallery-3.jpg" alt="">
-													<a href="portfolio-item.html" class="overlay-link small">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-											</div>
-											<div class="col-xs-4 col-md-6">
-												<div class="overlay-container mb-10">
-													<img src="images/gallery-4.jpg" alt="">
-													<a href="portfolio-item.html" class="overlay-link small">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-											</div>
-											<div class="col-xs-4 col-md-6">
-												<div class="overlay-container mb-10">
-													<img src="images/gallery-5.jpg" alt="">
-													<a href="portfolio-item.html" class="overlay-link small">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-											</div>
-											<div class="col-xs-4 col-md-6">
-												<div class="overlay-container mb-10">
-													<img src="images/gallery-6.jpg" alt="">
-													<a href="portfolio-item.html" class="overlay-link small">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div class="text-right space-top">
-											<a href="portfolio-grid-2-3-col.html" class="link-dark"><i class="fa fa-plus-circle pl-5 pr-5"></i>More</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="footer-content">
-										<h2 class="title">Find Us</h2>
-										<div class="separator-2"></div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium odio voluptatem necessitatibus illo vel dolorum soluta.</p>
-										<ul class="social-links circle animated-effect-1">
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-											<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-											<li class="xing"><a target="_blank" href="http://www.xing.com"><i class="fa fa-xing"></i></a></li>
+								<div class="col-md-6 col-md-offset-3">
+									<div class="footer-content text-center padding-ver-clear">
+										<div class="logo-footer"><img id="logo-footer" class="center-block" src="images/logoP.png" style="width: 15%;" alt=""></div>
+										<h3> Nuestra Parroquia</h3>
+                           				 <p>La Parroquia Cristo Resucitado esta ubicada en la colonia Loarque, Tegucigalpa, Honduras. Pertenece a la Arquidiócesis de Tegucigalpa, nuestro Arzobispo es S.E.R. Monseñor Oscar Andres Rodríguez Maradiaga, Nuestro Párroco es el Padre Javier Eduardo Martínez</p>
+										<ul class="list-inline mb-20">
+											<li><i class="text-default fa fa-map-marker pr-5"></i>Colonia Loarque, Calle Principal</li>
+											<li><a href="tel:+504 94306883" class="link-dark"><i class="text-default fa fa-phone pl-10 pr-5"></i> 2226-5775 (504+)</a></li>
+											<li><a href="tel:+504 94306883" class="link-dark"><i class="text-default fa fa-phone pl-10 pr-5"></i> 9430-6883 (504+)</a></li>
+											<!-- <li><a href="cristoresucitadohn@gmail.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i>cristoresucitadohn@gmail.com</a></li> -->
 										</ul>
-										<div class="separator-2"></div>
-										<ul class="list-icons">
-											<li><i class="fa fa-map-marker pr-10 text-default"></i> One infinity loop, 54100</li>
-											<li><i class="fa fa-phone pr-10 text-default"></i> +00 1234567890</li>
-											<li><a href="mailto:info@theproject.com"><i class="fa fa-envelope-o pr-10"></i>info@theproject.com</a></li>
+										<ul class="social-links circle animated-effect-1 margin-clear">
+											<li class="facebook"><a target="_blank" href="https://www.facebook.com/parroquiacristoresucitadohn/"><i class="fa fa-facebook"></i></a></li>
+											<li class="twitter"><a target="_blank" href="https://twitter.com/cristo_hn"><i class="fa fa-twitter"></i></a></li>
+											<li class="instagram"><a target="_blank" href="https://www.instagram.com/cristohn_resucitado/"><i class="fa fa-instagram"></i></a></li>
+											<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCDZi5Fc70E2pPzze72SSpcw"><i class="fa fa-youtube"></i></a></li>
+											
 										</ul>
+										<div class="separator"></div>
+										<p class="text-center margin-clear">Copyright © 2022 Parroquia Cristo Resucitado </p>
 									</div>
 								</div>
 							</div>
@@ -1380,21 +519,6 @@
 					</div>
 				</div>
 				<!-- .footer end -->
-
-				<!-- .subfooter start -->
-				<!-- ================ -->
-				<div class="subfooter">
-					<div class="container">
-						<div class="subfooter-inner">
-							<div class="row">
-								<div class="col-md-12">
-									<p class="text-center">Copyright © 2017 The Project by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>. All Rights Reserved</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- .subfooter end -->
 
 			</footer>
 			<!-- footer end -->
