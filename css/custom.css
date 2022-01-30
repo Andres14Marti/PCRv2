@@ -73,12 +73,39 @@ File Description: Place here your custom CSS styles
     background-image: url(../images/comunidades-principal.jpg);
 }
 
+.banner-infantil {
+    background-position: 50% 50%;
+    background-image: url(../images/infantil-principal.jpg);
+}
+
+.banner-juvenil {
+    background-position: 50% 50%;
+    background-image: url(../images/juvenil-principal.jpg);
+}
+
+.banner-familiar {
+    background-position: 50% 55%;
+    background-image: url(../images/familiar-principal.jpg);
+}
+
 .background-reconciliacion-horarios {
     background: url(../images/reconciliacion-horarios.jpg) 50% 0px no-repeat;
 }
 
 .background-pastorales {
     background: url(../images/misionera-pastorales.jpg) 50% 0px no-repeat;
+}
+
+.background-infantil {
+    background: url(../images/infantil-background.jpg) 50% 0px no-repeat;
+}
+
+.background-juvenil {
+    background: url(../images/juvenil-background.jpg) 50% 0px no-repeat;
+}
+
+.background-familiar {
+    background: url(../images/familiar-background.jpg) 50% 0px no-repeat;
 }
 
 .light-translucent-bg.slight:after {
@@ -139,6 +166,10 @@ blockquote:after {
 
 .mb-5{
     margin-bottom: 5px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
 }
 
 .mt-30{
