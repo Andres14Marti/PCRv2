@@ -8,108 +8,137 @@ License URI:http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
 
-.banner-pages {  
-    height: 632px;
-    max-height: 650px;
+
+
+/** PADDING **/
+.pt-15 {
+	padding-top: 15px;
+	padding-bottom: 0px;
 }
 
-.banner-nosotros {
-    background-position: 50% 27%;
-    background-image: url(../images/1sld.jpg);
+.pt-20 {
+	padding-top: 20px;
 }
 
-.banner-bautismo {
-    background-position: 50% 27%;
-    background-image: url(../images/bautismo-principal.jpg);
+.pr-0 {
+	padding-right: 0px;
 }
 
-.banner-bautismo {
-    background-position: 50% 27%;
-    background-image: url(../images/bautismo-principal.jpg);
+.pb-0 {
+    padding-bottom: 0px;
 }
 
-.banner-comunion {
-    background-position: 50% 50%;
-    background-image: url(../images/comunion-principal.jpg);
+.pl-0 {
+	padding-left: 0px;
+}
+/** FIN PADDING **/
+
+
+/** MARGIN **/
+.mt-0{
+    margin-top: 0px;
 }
 
-.banner-confirmacion {
-    background-position: 50% 50%;
-    background-image: url(../images/confirmacion-principal.jpg);
+.mt-30{
+    margin-top: 30px;
 }
 
-.banner-matrimonio {
-    background-position: 50% 50%;
-    background-image: url(../images/matrimonio-principal.jpg);
+.mt-50{
+    margin-top: 50px;
 }
 
-.banner-reconciliacion {
-    background-position: 50% 25%;
-    background-image: url(../images/reconciliacion-principal.jpg);
+.mb-0{
+    margin-bottom: 0px;
 }
 
-.banner-uncion {
-    background-position: 50% 50%;
-    background-image: url(../images/uncion-principal.jpg);
+.mb-3 {
+	margin-bottom: 3px !important;
 }
 
-.banner-misionera {
-    background-position: 50% 25%;
-    background-image: url(../images/misionera-principal.jpg);
+.mb-5{
+    margin-bottom: 5px;
 }
 
-.banner-pascual {
-    background-position: 50% 25%;
-    background-image: url(../images/pascual-principal.jpg);
+.mb-10{
+    margin-bottom: 10px;
 }
 
-.banner-samaritana {
-    background-position: 50% 40%;
-    background-image: url(../images/samaritana-principal.jpg);
+.mb-25{
+    margin-bottom: 25px;
+}
+/** FIN MARGIN **/
+
+
+/** TEXT AND FONT **/
+.slider-title {
+    font-size: 25px !important;
+    line-height: 27px !important;
 }
 
-.banner-comunidades {
-    background-position: 50% 60%;
-    background-image: url(../images/comunidades-principal.jpg);
+.slider-text {
+    font-size: 14px !important;
+    line-height: 17px !important;
 }
 
-.banner-infantil {
-    background-position: 50% 50%;
-    background-image: url(../images/infantil-principal.jpg);
+.text-muted {
+    font-size: 18px;
 }
 
-.banner-juvenil {
-    background-position: 50% 50%;
-    background-image: url(../images/juvenil-principal.jpg);
+.testimonial p {
+    margin-bottom: 25px;
+    display: inline-block;
 }
 
-.banner-familiar {
-    background-position: 50% 55%;
-    background-image: url(../images/familiar-principal.jpg);
+.juvenil-frases-pt {
+    padding-top: 140px;
 }
 
-.background-reconciliacion-horarios {
-    background: url(../images/reconciliacion-horarios.jpg) 50% 0px no-repeat;
+.font-14 {
+	font-size: 14px;
 }
 
-.background-pastorales {
-    background: url(../images/misionera-pastorales.jpg) 50% 0px no-repeat;
+.font-16 {
+	font-size: 16px;
 }
 
-.background-infantil {
-    background: url(../images/infantil-background.jpg) 50% 0px no-repeat;
+.font-18 {
+	font-size: 18px;
 }
 
-.background-juvenil {
-    background: url(../images/juvenil-background.jpg) 50% 0px no-repeat;
+.font-23 {
+	font-size: 23px;
+}
+/* FIN TEXT ADN FONT */
+
+
+/** LINK AND ICON **/
+a:hover, a:focus {
+	text-decoration: none;
 }
 
-.background-familiar {
-    background: url(../images/familiar-background.jpg) 50% 0px no-repeat;
+.socialRed{
+	font-size: 1.5em;
 }
 
-.light-translucent-bg.slight:after {
-  background-color: rgba(255, 255, 255, 0.726);
+.instagram:hover {
+	background-color: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+};
+
+.fa .fa-tiktok {
+	font-weight: 400;
+}
+
+.fa-tiktok:before { 
+	content: url("../icons/tiktok_icono.png") !important;
+	opacity: 0.5;
+}
+
+.fa-tiktok:hover::before{
+	opacity: 1;
+}
+
+.social-links:not(.animated-effect-1) li.tiktok a:hover, .colored.social-links li.tiktok a, .social-links.animated-effect-1 li.tiktok a:after, .btn.tiktok{
+	background: linear-gradient(to right, #08FFF9, #F00044);
 }
 
 .separator-img {
@@ -122,14 +151,191 @@ File Description: Place here your custom CSS styles
     text-align: center;
 }
 
-.testimonial p {
-    margin-bottom: 25px;
-    display: inline-block;
-    margin-right: 35px
-}
-
 .icon-contents{
     display: contents;
+}
+
+.icon-hover:hover .icon {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+  }
+/** FIN LINK AND ICON **/
+
+
+/** BUTTON **/
+.slider-button {
+    line-height: 85px !important;
+}
+
+#slider-button-4 {
+    line-height: 100px !important;
+}
+
+#pastoral-button-f {
+    margin-top: 15px !important;
+}
+/** FIN BUTTON **/
+
+
+/** BANNER **/
+.banner-pages {  
+    height: 632px;
+    max-height: 650px;
+}
+
+.banner-nosotros {
+    background-position: 50% 27%;
+    background-image: url(../images/nosotros_prin.jpg);
+}
+
+.banner-bautismo {
+    background-position: 50% 27%;
+    background-image: url(../images/bautismo_prin.jpg);
+}
+
+.banner-comunion {
+    background-position: 50% 50%;
+    background-image: url(../images/comunion_prin.jpg);
+}
+
+.banner-confirmacion {
+    background-position: 60% 20%;
+    background-image: url(../images/confirma_prin.jpg);
+}
+
+.banner-matrimonio {
+    background-position: 46% 0%; /*50% 50%*/
+    background-image: url(../images/matrimonio_prin.jpg);
+}
+
+.banner-reconciliacion {
+    background-position: 50% 25%;
+    background-image: url(../images/reconciliacion_prin.jpg);
+}
+
+.banner-uncion {
+    background-position: 50% 50%;
+    background-image: url(../images/uncion_prin.jpg);
+}
+
+.banner-misionera {
+    background-position: 98% 60%; /*50% 25%*/
+    background-image: url(../images/misionera_prin.jpg);
+}
+
+.banner-pascual {
+    background-position: 50% 25%;
+    background-image: url(../images/pascual_prin.jpg);
+}
+
+.banner-samaritana {
+    background-position: 76% 40%;
+    background-image: url(../images/samaritana_prin.jpg);
+}
+
+.banner-comunidades {
+    background-position: 15% 0%;
+    background-image: url(../images/comunidades_prin.jpg);
+}
+
+.banner-infantil {
+    background-position: 50% 50%;
+    background-image: url(../images/infantil_prin.jpg);
+}
+
+.banner-juvenil {
+    background-position: 50% 50%;
+    background-image: url(../images/juvenil_prin.jpg);
+}
+
+.banner-juvenil-frases {
+    background-position: 50% 50%;
+    background-image: url(../images/juvenil_frases.jpg);
+    height: 756px;
+    max-height: 755px;
+}
+
+.banner-familiar {
+    background-position: 0% 55%;
+    background-image: url(../images/familiar_prin.jpg);
+}
+
+.banner-contactanos {
+    background-position: 50% 45%;
+    background-image: url(../images/contactanos_prin.jpg);
+}
+
+.banner-donaciones {
+    background-position: 67% 45%;
+    background-image: url(../images/donaciones_prin.jpg);
+}
+/** FIN BANNER **/
+
+
+/** BACKGROUND **/
+.background-reconciliacion-horarios {
+    background: url(../images/reconciliacion_horarios_background.jpg) 50% 0% no-repeat;
+}
+
+.background-pastorales {
+    background: url(../images/misionera_pastorales_background.jpg) 50% 0px no-repeat;
+}
+
+.background-infantil {
+    background: url(../images/infantil_background.jpg) 16% 0% no-repeat;
+}
+
+.background-juvenil {
+    background: url(../images/juvenil_background.jpg) 50% 0px no-repeat;
+}
+
+.background-familiar {
+    background: url(../images/familiar_background.jpg) 39% 0px no-repeat;
+}
+
+.light-translucent-bg.slight:after {
+  background-color: rgba(255, 255, 255, 0.726);
+}
+/** FIN BACKGROUND **/
+
+
+/** VIDEO BANNER FULL SCREEN **/
+.showcase {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.video-container video {
+	/* min-width: 100%;
+	min-height: 100%; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+/** FIN VIDEO BANNER FULL SCREEN **/
+
+
+/** IMAGES **/
+.index-logo {
+    width: 10%;
 }
 
 blockquote{
@@ -138,11 +344,6 @@ blockquote{
 
 blockquote:after {
     font-size: 56px;
-}
-
-.icon-hover:hover .icon {
-  opacity: 0.8;
-  filter: alpha(opacity=80);
 }
 
 .container-versiculo {
@@ -155,34 +356,134 @@ blockquote:after {
     transition: 0.40s ease-in-out box-shadow;
 }
 
-.pt-15 {
-  padding-top: 15px;
-  padding-bottom: 0px;
+.iframe-mapa {
+    width: 380px;
+    height: 450px;
+    margin-top: 35px;
+}
+/** FIN IMAGES **/
+
+
+/** NAV TAB PILLS **/
+.vertical .nav-tabs {
+    background-color: #681313;
 }
 
-.mb-0{
-    margin-bottom: 0px;
+.vertical .nav-tabs > li.active > a, .vertical .nav-tabs > li.active > a:hover, .vertical .nav-tabs > li.active > a:focus {
+    color: #681313;
 }
 
-.mb-5{
-    margin-bottom: 5px;
+
+/** COLOR **/
+.green_back {
+	background-color: green;
 }
 
-.mb-10{
-    margin-bottom: 10px;
+.white_back {
+	background-color: antiquewhite;
 }
 
-.mt-30{
-    margin-top: 30px;
+.red_back {
+	background-color: #F00044;
 }
 
-/* Medium desktop devices and tablets */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .medium-p-mb {
-    margin-bottom: 5px;
-  }
-
-  .hide-medium-br{
-      display: none;
-  }
+.purple_back {
+	background-color: purple;
 }
+
+.blue_back {
+	background-color: dodgerblue;
+}
+
+.pink_back {
+	background-color: #D92E7F;
+}
+/** FIN COLOR **/
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)
+{
+	.medium-p-mb {
+	  margin-bottom: 5px;
+	}
+  
+	.hide-medium-br{
+		display: none;
+	}
+
+    .slider-title {
+        font-size: 42px !important;
+        line-height: 50px !important;
+    }
+
+    .slider-text {
+        font-size: 24px !important;
+        line-height: 35px !important;
+    }
+
+    .slider-button, #slider-button-4 {
+        line-height: 23px !important;
+    }
+
+    #pastoral-button-f {
+        margin-top: 0px !important;
+    }
+
+    .banner-confirmacion {
+        background-position: 50% 20%;
+    }
+
+    .banner-matrimonio {
+        background-position: 50% 0%;
+    }
+
+    .banner-misionera {
+        background-position: 50% 60%;
+    }
+
+    .banner-samaritana {
+        background-position: 50% 40%;
+    }
+
+    .banner-comunidades {
+        background-position: 50% 0%;
+    }
+
+    .banner-familiar {
+        background-position: 50% 55%;
+    }
+
+    .banner-donaciones {
+        background-position: 50% 45%;
+    }
+
+    .background-infantil {
+        background: url(../images/infantil_background.jpg) 16% 50% no-repeat;
+    }
+
+    .background-familiar {
+        background: url(../images/familiar_background.jpg) 50% 0px no-repeat;
+    }
+
+    .juvenil-frases-pt {
+        padding-top: 250px;
+    }
+
+    .iframe-mapa {
+        width: 600px;
+        margin-top: 0px;
+    }
+
+    .index-logo {
+        width: 4%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px)
+{
+    
+}
+

@@ -2,7 +2,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if gt IE 9]> <html lang="en" class="ie"> <![endif]-->
 <!--[if !IE]><!-->
-<html dir="rtl" lang="en">
+<html dir="ltr" lang="es">
 	<!--<![endif]-->
 
 	<head>
@@ -28,8 +28,6 @@
 
 		<!-- Font Awesome CSS -->
 		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
-		
-		<script src="https://kit.fontawesome.com/9f00a97cac.js" crossorigin="anonymous"></script>
 
 		<!-- Fontello CSS -->
 		<link href="fonts/fontello/css/fontello.css" rel="stylesheet">
@@ -42,22 +40,24 @@
 		<link href="css/animations.css" rel="stylesheet">
 		<link href="plugins/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet">
 		<link href="plugins/owlcarousel2/assets/owl.theme.default.min.css" rel="stylesheet">
-		<link href="plugins/hover/hover-min.css" rel="stylesheet">	
+		<link href="plugins/hover/hover-min.css" rel="stylesheet">
+		<link href="plugins/morphext/morphext.css" rel="stylesheet">	
 		
 		<link href="css/estilos.css" rel="stylesheet" >
 		
 		<!-- The Project's core CSS file -->
 		<!-- Use css/rtl_style.css for RTL version -->
-		<link href="css/rtl_style.css" rel="stylesheet" >
+		<link href="css/style.css" rel="stylesheet" >
+
 		<!-- The Project's Typography CSS file, includes used fonts -->
 		<!-- Used font for body: Roboto -->
 		<!-- Used font for headings: Raleway -->
 		<!-- Use css/rtl_typography-default.css for RTL version -->
-		<link href="css/rtl_typography-default.css" rel="stylesheet" >
+		<link href="css/typography-default.css" rel="stylesheet" >
+
 		<!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
 		<link href="css/skins/dark_red.css" rel="stylesheet">
 		
-
 		<!-- Custom css --> 
 		<link href="css/custom.css" rel="stylesheet">
 	</head>
@@ -68,9 +68,8 @@
 	<!-- "transparent-header": makes the header transparent and pulls the banner to top -->
 	<!-- "gradient-background-header": applies gradient background to header -->
 	<!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
-	<body class="no-trans front-page transparent-header gradient-background-header page-loader-3" >
+	<body class="no-trans front-page transparent-header gradient-background-header page-loader-4" >
 		
-
 		<!-- scrollToTop -->
 		<!-- ================ -->
 		<div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
@@ -79,12 +78,11 @@
 		<!-- ================ -->
 		<div class="page-wrapper">
 		
-			<!-- header-container start -->
-			<div class="header-container">
-				
+			<!-- HEADER -->
+			<div class="header-container">	
 				
 				<!-- header-top start -->
-				<header class="header centered fixed   dark clearfix">
+				<header class="header centered fixed dark clearfix">
 					
 					<div class="container">
 						<div class="row">
@@ -95,15 +93,15 @@
 									
 									<!-- logo -->
 									<div id="logo" class="logo">
-										<a href="index.html"><img id="logo_img" src="images/logoP.png" style="width: 4%;" alt="Parroquia Cristo Resucitado"></a>
+										<a href="index.html"><img id="logo_img" src="images/logoP.png" class="index-logo" alt="Parroquia Cristo Resucitado"></a>
 									</div>
-
-									
 
 								</div>
 								<!-- header-first end -->
 
 							</div>
+							
+							<!-- MENÚ -->
 							<div class="col-md-12">
 					
 								<!-- header-second start -->
@@ -116,7 +114,7 @@
 								<!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
 								<!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
 								<!-- ================ -->
-								<div class="main-navigation  animated ">
+								<div class="main-navigation animated">
 
 									<!-- navbar start -->
 									<!-- ================ -->
@@ -131,7 +129,6 @@
 													<span class="icon-bar"></span>
 													<span class="icon-bar"></span>
 												</button>
-												
 											</div>
 
 											<!-- Collect the nav links, forms, and other content for toggling -->
@@ -151,7 +148,7 @@
 															<li><a href="sacramentos/confirmacion.html">  Confirmación</a></li>
 															<li><a href="sacramentos/matrimonio.html">	  Matrimonio</a></li>
 															<li><a href="sacramentos/reconciliacion.html">Reconciliación</a></li>
-															<li><a href="sacramentos/uncion.html"> 		  Unción de los Enfermos</a></li>
+															<li><a href="sacramentos/uncion.html"> 		  Unción de los enfermos</a></li>
 														</ul>
 													</li>
 
@@ -174,7 +171,7 @@
 														</ul>
 													</li>
 
-													<li><a href="plataforma.html">Plataforma</a></li>
+													<!-- <li><a href="plataforma.html">Plataforma</a></li> -->
 
 													<li><a href="contactanos.html">Contáctanos</a></li>
 
@@ -194,16 +191,18 @@
 								<!-- header-second end -->
 					
 							</div>
+							<!-- FIN MENÚ -->
+
 						</div>
 					</div>
 					
-				</header> 
-				
+				</header> 				
 				<!-- header end -->
+
 			</div>
-			<!-- header-container end -->
+			<!-- FIN HEADER -->
 		
-			<!-- banner start -->
+			<!-- BANNER INDEX -->
 			<!-- ================ -->
 			<div class="banner clearfix">
 
@@ -211,55 +210,292 @@
 				<!-- ================ -->
 				<div class="slideshow">
 
-					<!-- slider revolution start -->
+					<!-- slider revolution start (UN SLIDE LEFT Y OTRO RIGHT, INTERCALADOS) -->
 					<!-- ================ -->
 					<div class="slider-revolution-5-container">
 						<div id="slider-banner-fullscreen" class="slider-banner-fullscreen rev_slider" data-version="5.0">
 							<ul class="slides">
+
 								<!-- slide 1 start -->
 								<!-- ================ -->
-								<li class="text-center" data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="Unlimited Options and Layouts">
+								<li class="text-left" data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="">
 
-								<!-- main image -->
-								<img src="images/img1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+									<!-- main image -->
+									<img src="images/index_slider_1.png" alt="Padre Javier instituyendo a un nuevo lector" data-bgposition="50% 27%" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
-								<!-- Transparent Background -->
-								<div class="tp-caption dark-translucent-bg"
-									data-x="center"
-									data-y="center"
-									data-start="0"
-									data-transform_idle="o:1;"
-									data-transform_in="o:0;s:600;e:Power2.easeInOut;"
-									data-transform_out="o:0;s:600;"
-									data-width="5000"
-									data-height="5000">
-								</div>
+									<!-- Transparent Background -->
+									<div class="tp-caption dark-translucent-bg"
+										data-x="center"
+										data-y="center"
+										data-start="0"
+										data-transform_idle="o:1;"
+										data-transform_in="o:0;s:600;e:Power2.easeInOut;"
+										data-transform_out="o:0;s:600;"
+										data-width="5000"
+										data-height="5000">
+									</div>
 
-					
+									<!-- LAYER NR. 1 -->
+									<div class="tp-caption large_white slider-title"
+										data-x="left"
+										data-y="200"
+										data-start="500"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1000;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+										Inscripciones Abiertas
+									</div>
+
+									<!-- LAYER NR. 2 -->
+									<div class="tp-caption large_white tp-resizeme"
+										data-x="left"
+										data-y="270"
+										data-start="750"
+										data-transform_idle="o:1;"
+										data-transform_in="o:0;s:2000;e:Power4.easeInOut;">
+										<div class="separator-2 light"></div>
+									</div>
+
+									<!-- LAYER NR. 3 -->
+									<div class="tp-caption medium_white slider-text"
+										data-x="left"
+										data-y="290"
+										data-start="750"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;s:750;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">¡Anuncia la Buena Nueva!<br>Sé parte del Curso para Lectores de nuestra Parroquia. 
+									</div>
+
+									<!-- LAYER NR. 4 -->
+									<div class="tp-caption small_white slider-button"
+										data-x="left"
+										data-y="370"
+										data-start="1000"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:500;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+										<a href="http://cristoresucitado.org/inscripciones/formacionLectoresForm.php" class="btn btn-default radius-50 btn-lg btn-animated margin-clear">INSCRÍBETE YA <i class="fa fa-pencil"></i></a>
+									</div>
 
 								</li>
 								<!-- slide 1 end -->
 
 								<!-- slide 2 start -->
 								<!-- ================ -->
-								<li class="text-right" data-transition="random" data-slotamount="7" data-masterspeed="default" data-title="Premium HTML5 Bootstrap Theme">
+								<li class="text-right" data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="">
 
-								<!-- main image -->
-								<img src="images/img2.jpg" alt="slidebg2" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+									<!-- main image -->
+									<img src="images/index_slider_3.jfif" alt="Pila bautismal frente al Altar" data-bgposition="50% 70%" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
-								<!-- Transparent Background -->
-								<div class="tp-caption dark-translucent-bg"
-									data-x="center"
-									data-y="center"
-									data-start="0"
-									data-transform_idle="o:1;"
-									data-transform_in="o:0;s:600;e:Power2.easeInOut;"
-									data-transform_out="o:0;s:600;"
-									data-width="5000"
-									data-height="5000">
-								</div>
+									<!-- Transparent Background -->
+									<div class="tp-caption dark-translucent-bg"
+										data-x="center"
+										data-y="center"
+										data-start="0"
+										data-transform_idle="o:1;"
+										data-transform_in="o:0;s:600;e:Power2.easeInOut;"
+										data-transform_out="o:0;s:600;"
+										data-width="5000"
+										data-height="5000">
+									</div>
+
+									<!-- LAYER NR. 1 -->
+									<div class="tp-caption large_white slider-title"
+										data-x="right"
+										data-y="200"
+										data-start="500"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1000;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+										Charlas Pre-bautismales
+									</div>
+
+									<!-- LAYER NR. 2 -->
+									<div class="tp-caption large_white tp-resizeme"
+										data-x="right"
+										data-y="270"
+										data-start="750"
+										data-transform_idle="o:1;"
+										data-transform_in="o:0;s:2000;e:Power4.easeInOut;">
+										<div class="separator-2 light"></div>
+									</div>
+
+									<!-- LAYER NR. 3 -->
+									<div class="tp-caption medium_white slider-text"
+										data-x="right"
+										data-y="290"
+										data-start="750"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;s:750;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Charlas virtuales para padres<br>Sábado 6 de agosto - 6:00 PM. 
+									</div>
+
+									<!-- LAYER NR. 4 -->
+									<div class="tp-caption small_white slider-button"
+										data-x="right"
+										data-y="370"
+										data-start="1000"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:500;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+										<a href="https://wa.me/94306883?text=Saludos.%20Quisiera%20anotarme%20para%20recibir%20las%20charlas%20pre-bautismales" target="_blank" class="btn btn-default radius-50 btn-lg btn-animated margin-clear">CONTÁCTANOS<i class="fa fa-whatsapp"></i></a>
+									</div>
+
 								</li>
 								<!-- slide 2 end -->
+
+								<!-- slide 3 start -->
+								<!-- ================ -->
+								<li class="text-left" data-transition="random" data-slotamount="7" data-masterspeed="default" data-title="">
+
+									<!-- main image -->
+									<img src="images/index_slider_2.png" alt="Niña colocando una bolsa de comida en el Altar" data-bgposition="50% 17%" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+
+									<!-- Transparent Background -->
+									<div class="tp-caption dark-translucent-bg"
+										data-x="center"
+										data-y="center"
+										data-start="0"
+										data-transform_idle="o:1;"
+										data-transform_in="o:0;s:600;e:Power2.easeInOut;"
+										data-transform_out="o:0;s:600;"
+										data-width="5000"
+										data-height="5000">
+									</div>
+
+									<!-- LAYER NR. 1 -->
+									<div class="tp-caption large_white slider-title"
+										data-x="left"
+										data-y="200"
+										data-start="500"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1000;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+										Libra del Amor
+									</div>
+
+									<!-- LAYER NR. 2 -->
+									<div class="tp-caption large_white tp-resizeme"
+										data-x="left"
+										data-y="270"
+										data-start="750"
+										data-transform_idle="o:1;"
+										data-transform_in="o:0;s:2000;e:Power4.easeInOut;">
+										<div class="separator-2 light"></div>
+									</div>
+
+									<!-- LAYER NR. 3 -->
+									<div class="tp-caption medium_white slider-text"
+										data-x="left"
+										data-y="290"
+										data-start="750"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;s:750;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Comparte alimentos no perecederos con los necesitados<br>este domingo 7 de agosto en la Santa Eucaristía. 
+									</div>
+
+									<!-- LAYER NR. 4 -->
+									<div class="tp-caption small_white slider-button"
+										data-x="left"
+										data-y="370"
+										data-start="1000"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:500;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+										<a href="donaciones.html" class="btn btn-default radius-50 btn-lg btn-animated margin-clear">MÁS INFORMACIÓN<i class="fa fa-arrow-right"></i></a>
+									</div>
+
+								</li>
+								<!-- slide 3 end -->
+
+								<!-- slide 4 start -->
+								<!-- ================ -->
+								<li class="text-right" data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="">
+
+									<!-- main image -->
+									<img src="images/index_slider_4.jpg" alt="Padre Javier celebrando la misa" data-bgposition="50% 30%" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+
+									<!-- Transparent Background -->
+									<div class="tp-caption dark-translucent-bg"
+										data-x="center"
+										data-y="center"
+										data-start="0"
+										data-transform_idle="o:1;"
+										data-transform_in="o:0;s:600;e:Power2.easeInOut;"
+										data-transform_out="o:0;s:600;"
+										data-width="5000"
+										data-height="5000">
+									</div>
+
+									<!-- LAYER NR. 1 -->
+									<div class="tp-caption large_white slider-title"
+										data-x="right"
+										data-y="200"
+										data-start="500"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1000;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+										Rosario y Santa Eucaristía
+									</div>
+
+									<!-- LAYER NR. 2 -->
+									<div class="tp-caption large_white tp-resizeme"
+										data-x="right"
+										data-y="270"
+										data-start="750"
+										data-transform_idle="o:1;"
+										data-transform_in="o:0;s:2000;e:Power4.easeInOut;">
+										<div class="separator-2 light"></div>
+									</div>
+
+									<!-- LAYER NR. 3 -->
+									<div class="tp-caption medium_white slider-text"
+										data-x="right"
+										data-y="290"
+										data-start="750"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;s:750;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Novena a San Tarcisio.<br>Novena a la virgen de la Asunción.<br>Novena Padre Mathus (6 meses de fallecido).<br>Desde el domingo 7 de agosto - 6:30 PM. 
+									</div>
+
+									<!-- LAYER NR. 4 -->
+									<div class="tp-caption small_white slider-button" id="slider-button-4"
+										data-x="right"
+										data-y="440"
+										data-start="1000"
+										data-transform_idle="o:1;"
+										data-transform_in="y:[100%];sX:1;sY:1;o:0;s:500;e:Power4.easeInOut;"
+										data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+										data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+										data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+										<a href="contactanos.html" class="btn btn-default radius-50 btn-lg btn-animated margin-clear">¿CÓMO LLEGAR?<i class="fa fa-map-marker"></i></a>
+									</div>
+
+								</li>
+								<!-- slide 4 end -->
+								
 							</ul>
 							<!-- <div class="tp-bannertimer"></div> -->
 						</div>
@@ -270,118 +506,126 @@
 				<!-- slideshow end -->
 
 			</div>
-			<!-- banner end -->
+			<!-- FIN BANNER INDEX -->
 
 			<div id="page-start"></div>
 
-			<!-- section start -->
+			<!-- HORARIOS MISA  -->
 			<!-- ================ -->
 			<section class="light-gray-bg pv-30 clearfix">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<h2 class="text-center">Horarios<strong> Santa Eucaristía</strong></h2>
+
 							<div class="separator"></div>
-							<p class="large text-center">Estos Horarios estan sujetos a cambios durante tiempo de COVID19</p>
+							<p class="large text-center">Estos horarios estan sujetos a cambios durante tiempo de COVID-19</p>
 						</div>
-						<div class="col-md-4 ">
+						<div class="col-md-12 ">
 							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-								<span class="icon default-bg circle "style="background-color: brown;"><i class="fas fa-church"></i></span>
-								<h3>Eucaristías Trasnsmitidas</h3>
+								<span class="icon default-bg circle"style="background-color: brown;"><i class="fas fa-video-camera"></i></span>
+								<h3>Eucaristías Transmitidas</h3>
 								<div class="separator clearfix"></div>
-								<p>Lunes a Viernes:  <b>5:00 PM</b></p>
-								<p>Sabados        :  <b>7:00 AM</b></p>
-								<p>Domingos       :  <b>11:00 AM</b></p>
-								<p>Transmitidas en vivo por         <b></b></p>
-								<a href="https://www.facebook.com/parroquiacristoresucitadohn/" class="fab fa-facebook" id="facebook" target="_blank"></a> &nbsp; &nbsp;  
-
-								<a href="https://www.youtube.com/channel/UCDZi5Fc70E2pPzze72SSpcw"   class="fab fa-youtube" id="youtube" target="_blank"></a>
-								
-							</div>
-						</div>
-						<div class="col-md-4 ">
-							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
-								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
-								<h3>Sede Parroquial</h3>
-								<div class="separator clearfix"></div>
-								<p>Lunes a Viernes:  <b>7:00 AM & 5:00 PM</b></p>
-								<p>Sabados        :  <b>7:00 AM & 5:30 PM</b></p>
-								<p>Domingos       :  <b>9:00 AM, 11:00 AM, 5:00 PM & 7:00 PM</b></p>
-								<p><br></b></p>
-							</div>
-						</div>
-						<div class="col-md-4 ">
-							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
-								<h3>Yaguacire</h3>
-								<div class="separator clearfix"></div>
-								<p>Domingos       :<b>7:00 AM</b></p>
-								<p><br>.</b></p>
-								<p><br></b></p>
-								<p><br></b></p>
-								<p></b></p>
+								<p class="font-16">Lunes a Viernes: <b>5:00 PM</b> &nbsp; | &nbsp; Sábados: <b>5:30 PM</b> &nbsp; | &nbsp; Domingos: <b>11:00 AM</b></p>
+								<p class="font-16">Transmitidas en vivo por &nbsp;   
+									<a href="https://www.facebook.com/parroquiacristoresucitadohn/" class="fab fa-facebook socialRed" id="facebook" target="_blank"></a> &nbsp;
+									<a href="https://www.youtube.com/channel/UCDZi5Fc70E2pPzze72SSpcw"   class="fab fa-youtube socialRed" id="youtube" target="_blank"></a>
+								</p>
 							</div>
 						</div>
 
-						<div class="col-md-4 ">
-							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
-								<h3>Altos de Loarque</h3>
-								<div class="separator clearfix"></div>
-								<p>Domingos       :<b>3:30 PM</b></p>
-								<p><br></b></p>
-								<p><br></b></p>
-								<p><br></b></p>
-								<p></b></p>
+						<div class="col-md-12">
+							<div class="col-md-4 ">
+								<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
+									<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+									<h3>Sede Parroquial</h3>
+									<div class="separator clearfix"></div>
+									<p class="font-16">Lunes a Viernes:  <b>7:00 AM, 5:00 PM, 7:00 PM</b></p>
+									<p class="font-16">Sábados:  		 <b>7:00 AM, 5:30 PM</b></p>
+									<p class="font-16">Domingos:  		 <b>9:15 AM, 11:00 AM, 5:00 PM, 7:00 PM</b></p>
+								</div>
+							</div>
+	
+							<div class="col-md-4 ">
+								<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+									<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+									<h3>Altos de Loarque</h3>
+									<div class="separator clearfix"></div>
+									<p class="font-16">Miércoles: <b>6:00 PM</b></p>
+									<p class="font-16">Domingos:  <b>9:00 AM</b></p>
+									<p><br><br><br></p>
+								</div>
+							</div>
+	
+							<div class="col-md-4 ">
+								<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+									<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+									<h3>Yaguacire</h3>
+									<div class="separator clearfix"></div>
+									<p class="font-16">Domingos: <b>7:00 AM</b></p>
+									<p><br></p>
+									<p><br></p>
+									<p><br></p>
+								</div>
 							</div>
 						</div>
-
-						<div class="col-md-4 ">
-							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
-								<h3>Camino NeoCatecumenal</h3>
-								<div class="separator clearfix"></div>
-								<p>Sábados       :<b>7:00 PM</b></p>
-								<p><br></b></p>
-								<p><br></b></p>
-								<p><br></b></p>
-								<p></b></p>
+						
+						<div class="col-md-12">
+							<div class="col-md-4 ">
+								<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+									<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+									<h3>Las Mercedes</h3>
+									<div class="separator clearfix"></div>
+									<p class="font-16">Sábados: <b>3:30 PM</b></p>
+									<p><br></p>
+									<p><br></p>
+								</div>
+							</div>
+	
+							<div class="col-md-4 ">
+								<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+									<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+									<h3>Fuerza Aérea Hondureña</h3>
+									<div class="separator clearfix"></div>
+									<p class="font-16">Domingos: <b>8:15 AM</b></p>
+									<p><br></p>
+									<p><br></p>
+								</div>
+							</div>
+	
+							<div class="col-md-4 ">
+								<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+									<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
+									<h3>Camino Neo-catecumenal</h3>
+									<div class="separator clearfix"></div>
+									<p class="font-16">Sábados: <b>7:00 PM</b></p>
+									<p><br></p>
+									<p><br></p>
+								</div>
 							</div>
 						</div>
-
-						<div class="col-md-4 ">
-							<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-								<span class="icon default-bg circle" style="background-color: brown;"><i class="fas fa-church"></i></span>
-								<h3>Las Mercedes</h3>
-								<div class="separator clearfix"></div>
-								<p>Sábados       :<b>3:30 PM</b></p>
-								<p><br></b></p>
-								<p><br></b></p>
-								<p><br></b></p>
-								<p></b></p>
-							</div>
-						</div>
-
 					</div>
 				</div>
 			</section>
-			<!-- section end -->
+			<!-- FIN HORARIOS MISA -->
 
-			<!-- section start -->
+
+			<!-- ANOTAR INTENCIÓN -->
 			<!-- ================ -->
-			<section class="section default-bg clearfix">
+			<section class="section light-gray-bg pv-40 clearfix">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="call-to-action text-center">
 								<div class="row">
-									<div class="col-sm-8 col-sm-push-4">
-										<h1 class="title">Nuestros Servicios</h1>
-										<p>Los servicios que como parroquia brindamos a la feligresía</p>
-									</div>
-									<div class="col-sm-4 col-sm-pull-8">
-										<br>
-										<p><a href="servicios.html" class="btn btn-lg btn-gray-transparent btn-animated"><i class="fa fa-arrow-left pl-20"></i>Leer Más</a></p>
+									<div class="col-sm-8 col-sm-offset-2">
+										<h2 class="title">Anota tus intenciones de <span class="text-rotator text-default bold" data-rotator-animation-effect="fadeIn" data-effect-delay="2s">Salud, Familia, Difuntos, Gratitud, Fe, Trabajo, Celebraciones</span></h2>
+										<p class="font-18">Si deseas anotar alguna intención para la Santa Eucaristía, escríbenos a nuestro Whatsapp indicando la fecha y hora en la que deseas que se lea tu intención.</p>
+										<div class="separator"></div>
+										<form class="form-inline margin-clear">
+											<p class="mt-10"><a href="https://wa.me/94306883?text=Saludos.%20Me%20gustaría%20anotar%20la%20siguiente%20intención:%20" target="_blank"
+												class="btn btn-animated btn btn-default font-16">ANOTAR INTENCIÓN<i class="fa fa-whatsapp"></i></a></p>
+										</form>
 									</div>
 								</div>
 							</div>
@@ -389,53 +633,37 @@
 					</div>
 				</div>
 			</section>
-			<!-- section end -->
-
-
+			<!-- FIN ANOTAR INTENCIÓN -->
 			
 
-			<!-- section -->
+			<!-- LECTURAS DEL DIA -->
 			<!-- ================ -->
-			<section class="pv-30">
+			<!-- <section class="section default-bg clearfix green_back pv-20">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
-							<h2>Nuestros <strong>Servicios</strong></h2>
-							<div class="separator-2"></div>
-							<!-- <p>Lorem ipsum dolor sit amet, lotrem <span class="text-default">some colored text</span>. Nulla explicabo <strong>attention to this</strong> blanditiis, ex cupiditate ipsam debitis rem.</p> -->
-							<ul class="list-icons">
-								<h4><i class="far fa-check-circle"></i> Santas Eucaristías</h4>
-								<h4><i class="far fa-check-circle"></i> Dirección Espiritual</h4>
-								<h4><i class="far fa-check-circle"></i> Grupos de Oración</h4>
-								<h4><i class="far fa-check-circle"></i> Sacramentos</h4>
-								<h4><i class="far fa-check-circle"></i> Pastorales</h4>
-								<!-- <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="far fa-check-circle"></i> 27 Predifined Home Pages</li>
-								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="far fa-check-circle"></i> 14 Header Options</li>
-								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="far fa-check-circle"></i> 8 Footer Options</li>
-								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="far fa-check-circle"></i> 200+ HTML files</li>
-							</ul> -->
-							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et eius aut nisi dolore ut.</p> -->
-							<a href="servicios.html" class="btn btn-default btn-hvr hvr-shutter-out-horizontal btn-lg">Leer Más<i class="icon-users-1 pl-10"></i></a>
-						</div>
-						<div class="col-md-6">
-							<br>
-							<div class="clearfix">
-								<img class="pull-right object-non-visible" data-animation-effect="slideInUp" data-effect-delay="100" src="images/caliz.svg" alt="">
+						<div class="col-md-12">
+							<div class="call-to-action text-center">
+								<div class="row">
+									<div class="col-sm-12">
+										<h3 class="title mb-25">TIEMPO LITÚRGICO: <strong>XVII SEMANA DEL TIEMPO ORDINARIO</strong></h3>
+
+										<p class="font-16">LECTURAS DEL DÍA - JUEVES 21 DE ABRIL DEL 2022</p>
+
+										<p class="mb-3 font-16"><strong>Primera Lectura: </strong>Jeremías 2, 1-3. 7-8. 12-13</p>
+										<p class="mb-3 font-16"><strong>Salmo 35: </strong>"Tú eres Señor, la fuente de la vida"</p>
+										<p class="mb-3 font-16"><strong>Evangelio: </strong>Mateo 13, 10-17</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<br>
-			</section>
-			<!-- section end -->
+			</section> -->
+			<!-- FIN LECTURAS DEL DIA -->	
 
-			<!-- section end -->
-
-		
-		
-			<!-- section start -->
+			<!-- NUESTROS SACERDOTES -->
 			<!-- ================ -->
-			<section class="pv-30 clearfix">
+			<section class="pv-20 clearfix">
 
 				<div class="container">
 					<div class="row">
@@ -444,10 +672,10 @@
 						
 						<div class="col-md-12">
 							<div class="image-box text-center style-4 mb-20">
-								<img src="images/pater.jpg" style="width: 40%;" alt="" class="rounded-circle img-thumbnail">
+								<img src="images/index_pater_1.jpg" style="width: 40%;" alt="Padre Javier Martínez" class="rounded-circle img-thumbnail">
 								<div class="body padding-horizontal-clear">
 									<h4 class="logo-font title">Pbro. Javier Eduardo Martínez</h4>
-									<p class="small mb-10">Párroco</p>
+									<p class="mb-10 font-18">Párroco</p>
 									<p class="lead text-default"></p>
 								</div>
 							</div>
@@ -475,13 +703,10 @@
 					</div>
 				
 				</div>
-			
-
 
 			</section>
+			<!-- FIN NUESTROS SACERDOTES -->
 
-			
-			<!-- section end -->
 			<!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
 			<!-- ================ -->
 			<footer id="footer" class="clearfix dark">
@@ -496,19 +721,19 @@
 									<div class="footer-content text-center padding-ver-clear">
 										<div class="logo-footer"><img id="logo-footer" class="center-block" src="images/logoP.png" style="width: 15%;" alt=""></div>
 										<h3> Nuestra Parroquia</h3>
-                           				 <p>La Parroquia Cristo Resucitado esta ubicada en la colonia Loarque, Tegucigalpa, Honduras. Pertenece a la Arquidiócesis de Tegucigalpa, nuestro Arzobispo es S.E.R. Monseñor Oscar Andres Rodríguez Maradiaga, Nuestro Párroco es el Padre Javier Eduardo Martínez</p>
+                           				 <p>La Parroquia Cristo Resucitado está ubicada en la Colonia Loarque, Tegucigalpa, Honduras. Pertenece a la Arquidiócesis de Tegucigalpa, nuestro Arzobispo es S.E.R. Monseñor Óscar Andres Rodríguez Maradiaga, Nuestro Párroco es el Padre Javier Eduardo Martínez.</p>
 										<ul class="list-inline mb-20">
-											<li><i class="text-default fa fa-map-marker pr-5"></i>Colonia Loarque, Calle Principal</li>
-											<li><a href="tel:+504 94306883" class="link-dark"><i class="text-default fa fa-phone pl-10 pr-5"></i> 2226-5775 (504+)</a></li>
-											<li><a href="tel:+504 94306883" class="link-dark"><i class="text-default fa fa-phone pl-10 pr-5"></i> 9430-6883 (504+)</a></li>
+											<li><i class="text-default fa fa-map-marker pr-5"></i> Colonia Loarque, Calle Principal</li>
+											<!-- <li><a href="tel:+504 94306883" class="link-dark"><i class="text-default fa fa-phone pl-10 pr-5"></i> (504+) 2226-5775 </a></li> -->
+											<li><a href="tel:+504 94306883" class="link-dark"><i class="text-default fa fa-phone pl-10 pr-5"></i> (+504) 9430-6883 </a></li>
 											<!-- <li><a href="cristoresucitadohn@gmail.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i>cristoresucitadohn@gmail.com</a></li> -->
 										</ul>
-										<ul class="social-links circle animated-effect-1 margin-clear">
+										<ul class="social-links circle animated-effect-1 margin-clear pl-0">
 											<li class="facebook"><a target="_blank" href="https://www.facebook.com/parroquiacristoresucitadohn/"><i class="fa fa-facebook"></i></a></li>
-											<li class="twitter"><a target="_blank" href="https://twitter.com/cristo_hn"><i class="fa fa-twitter"></i></a></li>
 											<li class="instagram"><a target="_blank" href="https://www.instagram.com/cristohn_resucitado/"><i class="fa fa-instagram"></i></a></li>
 											<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCDZi5Fc70E2pPzze72SSpcw"><i class="fa fa-youtube"></i></a></li>
-											
+											<li class="twitter"><a target="_blank" href="https://twitter.com/cristo_hn"><i class="fa fa-twitter"></i></a></li>
+											<li class="tiktok"><a target="_blank" href="https://www.tiktok.com/@cristoresucitado_hn"><i class="fa fa-tiktok"></i></a></li>
 										</ul>
 										<div class="separator"></div>
 										<p class="text-center margin-clear">Copyright © 2022 Parroquia Cristo Resucitado </p>
@@ -525,6 +750,9 @@
 			
 		</div>
 		<!-- page-wrapper end -->
+
+
+
 
 		<!-- JavaScript files placed at the end of the document so the pages load faster -->
 		<!-- ================================================== -->
@@ -549,6 +777,8 @@
 		<script src="plugins/jquery.validate.js"></script>
 		<!-- Background Video -->
 		<script src="plugins/vide/jquery.vide.js"></script>
+		<!-- Morphext -->
+		<script type="text/javascript" src="plugins/morphext/morphext.min.js"></script>
 		<!-- Owl carousel javascript -->
 		<script type="text/javascript" src="plugins/owlcarousel2/owl.carousel.min.js"></script>
 		<!-- Pace javascript -->
@@ -558,11 +788,14 @@
 		<script type="text/javascript" src="plugins/SmoothScroll.js"></script>
 		<!-- Initialization of Plugins -->
 		<script type="text/javascript" src="js/template.js"></script>
-		<!-- Custom Scripts -->
-		<script type="text/javascript" src="js/custom.js"></script>
+		<!-- Fontawesome Kit -->
+        <script src="https://kit.fontawesome.com/9f00a97cac.js" crossorigin="anonymous"></script>		
 
 		<script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.slideanims.min.js"></script>
 		<script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.layeranimation.min.js"></script>
 		<script type="text/javascript" src="plugins/rs-plugin-5/js/extensions/revolution.extension.navigation.min.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
 	</body>
 </html>
