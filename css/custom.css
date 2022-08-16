@@ -163,6 +163,11 @@ a:hover, a:focus {
 
 
 /** BUTTON **/
+.btn-menu-strong {
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
 .slider-button {
     line-height: 85px !important;
 }
@@ -200,7 +205,7 @@ a:hover, a:focus {
 
 .banner-confirmacion {
     background-position: 60% 20%;
-    background-image: url(../images/confirma_prin.jpg);
+    background-image: url(../images/confirma_prin.jfif);
 }
 
 .banner-matrimonio {
