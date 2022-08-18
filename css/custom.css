@@ -70,6 +70,22 @@ File Description: Place here your custom CSS styles
 
 
 /** TEXT AND FONT **/
+.font-14 {
+	font-size: 14px;
+}
+
+.font-16 {
+	font-size: 16px;
+}
+
+.font-18 {
+	font-size: 18px;
+}
+
+.font-23 {
+	font-size: 23px;
+}
+
 .slider-title {
     font-size: 25px !important;
     line-height: 27px !important;
@@ -93,22 +109,29 @@ File Description: Place here your custom CSS styles
     padding-top: 140px;
 }
 
-.font-14 {
-	font-size: 14px;
+.banner-actividades-text-pt {
+    padding-top: 120px;
 }
 
-.font-16 {
-	font-size: 16px;
+/*# CALENDARIO #*/
+.fc-event-title-container {
+    white-space: normal;
 }
 
-.font-18 {
-	font-size: 18px;
+.fc-h-event .fc-event-main-frame {
+    display: block;
 }
 
-.font-23 {
-	font-size: 23px;
+/**** Por si no se ve el texto en vista de semana ****/
+/*.fc-timegrid-slots table tr {
+    height: max-content;
+} */
+
+.fc-timegrid-event {
+    height: max-content;
+    min-height: -webkit-fill-available;
 }
-/* FIN TEXT ADN FONT */
+/* FIN TEXT AND FONT */
 
 
 /** LINK AND ICON **/
@@ -178,6 +201,36 @@ a:hover, a:focus {
 
 #pastoral-button-f {
     margin-top: 15px !important;
+}
+
+/*# CALENDARIO #*/
+.fc .fc-toolbar {
+    display: block;
+}
+
+.fc .fc-toolbar .fc-toolbar-chunk {
+    display: flex;
+    justify-content: center;
+}
+
+.fc .fc-toolbar .fc-toolbar-chunk .btn-primary{
+    color: #fff;
+    background-color: #6B6B6B;
+    border-color: #474747;
+}
+
+.fc .fc-toolbar .fc-toolbar-chunk .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #222222 !important;
+    border-color: #161616 !important;
+}
+
+.fc .fc-toolbar .fc-toolbar-chunk .btn-primary:hover{
+    background-color: #222222;
+    border-color: #161616;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: rgba(245, 226, 181, 0.5) /*#F5E2B5;*/
 }
 /** FIN BUTTON **/
 
@@ -265,6 +318,11 @@ a:hover, a:focus {
     background-image: url(../images/familiar_prin.jpg);
 }
 
+.banner-actividades {
+    background-position: 50% 15%;
+    background-image: url(../images/actividades_prin.jpg);
+}
+
 .banner-contactanos {
     background-position: 50% 45%;
     background-image: url(../images/contactanos_prin.jpg);
@@ -300,6 +358,10 @@ a:hover, a:focus {
 
 .light-translucent-bg.slight:after {
   background-color: rgba(255, 255, 255, 0.726);
+}
+
+.fc-scrollgrid .table-borderer {
+    border: 1px solid #000; 
 }
 /** FIN BACKGROUND **/
 
@@ -464,6 +526,10 @@ blockquote:after {
         background-position: 50% 45%;
     }
 
+    .banner-actividades-text-pt {
+        padding-top: 220px;
+    }
+
     .background-infantil {
         background: url(../images/infantil_background.jpg) 16% 50% no-repeat;
     }
@@ -483,6 +549,12 @@ blockquote:after {
 
     .index-logo {
         width: 4%;
+    }
+
+    .fc .fc-toolbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
