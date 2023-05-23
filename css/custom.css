@@ -91,6 +91,11 @@ File Description: Place here your custom CSS styles
     line-height: 27px !important;
 }
 
+.slider-title-s {
+    font-size: 22px !important;
+    line-height: 25px !important;
+}
+
 .slider-text {
     font-size: 14px !important;
     line-height: 17px !important;
@@ -163,6 +168,10 @@ a:hover, a:focus {
 .social-links:not(.animated-effect-1) li.tiktok a:hover, .colored.social-links li.tiktok a, .social-links.animated-effect-1 li.tiktok a:after, .btn.tiktok{
 	background: linear-gradient(to right, #08FFF9, #F00044);
 }
+
+.whatsapp:hover {
+	background-color: radial-gradient(circle at 100%, #0FC044);
+};
 
 .separator-img {
     position: absolute;
@@ -480,7 +489,7 @@ blockquote:after {
 		display: none;
 	}
 
-    .slider-title {
+    .slider-title, .slider-title-s {
         font-size: 42px !important;
         line-height: 50px !important;
     }
